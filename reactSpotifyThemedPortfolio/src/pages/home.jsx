@@ -23,27 +23,27 @@ const Home = () => {
   return (
     <div>
       <div className="scrollbar-hide md:overflow-hidden">
-        <div className="hidden md:flex flex-col min-h-screen flex-1 overflow-hidden bg-black">
+        <div className="flex flex-col min-h-screen flex-1 md:overflow-hidden bg-black">
           {/* top */}
           <TopBar />
 
           {/* middle */}
-          <div class="flex flex-1 overflow-hidden mx-2 space-x-2">
+          <div class="md:flex md:flex-1 md:overflow-hidden md:mx-2 md:space-x-2">
 
             {/* nav bar */}
             <LeftBar />
 
             {/* scrollable content*/}
-            <div className="flex-1 bg-[#121212] rounded-lg overflow-y-auto h-[calc(100vh-9.5rem)] overflow-x-hidden" id="mainContent">
-              <div class="relative text-white min-h-screen">
-                <div class="absolute inset-0 bg-gradient-to-b from-[#8094af] to-[#121212] opacity-20 h-90 z-0"></div>
+            <div className="flex-1 bg-[#121212] md:rounded-lg overflow-y-auto md:h-[calc(100vh-9.5rem)] overflow-x-hidden">
+              <div class="relative text-white min-h-full">
+                <div class="absolute inset-0 bg-gradient-to-b from-[#8094af] to-[#121212] opacity-20 h-90"></div>
 
                 <div class="relative z-10">
-                  <Profile/>
+                  <Profile />
 
-                  <div class="mx-5 pb-24 text-white">
+                  <div class="mx-5 pb-24">
                     <div class="my-8">
-                      <p class="text-2xl font-bold">About Me</p>
+                      <p class="text-lg md:text-2xl font-bold">About Me</p>
                       <p class="mt-2 mb-4 text-sm">
                         Hi, my name is Imogen, but you can call me Mars! I'm interested in web development, full-stack development, and data engineering.
                       </p>
@@ -73,7 +73,7 @@ const Home = () => {
           </div>
 
           {/* bottom */}
-          <BottomBar />
+          <BottomBar currentPage="/" />
 
         </div>
       </div>

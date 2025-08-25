@@ -1,8 +1,8 @@
 const ArtistSection = ({ data }) => {
   return (
     <div className="my-8">
-      <p className="text-2xl font-bold">{data.title}</p>
-      <div className="flex flex-row justify-between"> 
+      <p className="text-lg md:text-2xl font-bold">{data.title}</p>
+      <div className="hidden md:flex flex-row justify-between"> 
         <p className="mb-4 text-sm text-faded">As of {data.date}</p> 
       </div>
 

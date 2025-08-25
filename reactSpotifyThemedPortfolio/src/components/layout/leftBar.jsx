@@ -1,6 +1,6 @@
 const LeftBar = () => {
   return (
-    <div class="bg-[#121212] w-18 rounded-lg p-2 flex flex-col space-y-4 items-center">
+    <div class="hidden md:flex bg-[#121212] w-18 rounded-lg p-2 flex-col space-y-4 items-center">
       <span class="fa fa-bookmark text-xl text-faded pt-5"></span>
 
       <a href="about.html">

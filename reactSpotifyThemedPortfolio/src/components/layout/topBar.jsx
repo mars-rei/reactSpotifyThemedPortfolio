@@ -1,6 +1,6 @@
 const TopBar = () => {
   return (
-    <div class="flex-shrink-0 flex items-center p-2">
+    <div class="hidden md:flex flex-shrink-0 items-center p-2">
       <div class="flex items-center justify-start ml-5 space-x-4 lg:w-1/4 md:w-18">
         <span class="fa fa-briefcase text-3xl text-white"></span>
       </div>
