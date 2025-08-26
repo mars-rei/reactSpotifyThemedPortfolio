@@ -6,43 +6,40 @@ const ongoingProjects = {
     {
       "id": 1,
       "title": "React Spotify Themed Portfolio",
-      "icon": "fa fa-briefcase",
-      "visibleOnTablet": true
+      "icon": "fa fa-briefcase"
     },
     {
       "id": 2,
       "title": "Random Lyric Generator",
       "link": "project-12-random-lyric-generator.html",
-      "icon": "fa fa-dice", 
-      "visibleOnTablet": true
+      "icon": "fa fa-dice"
     },
     {
       "id": 3,
       "title": "Summer of '25 Blog",
       "link": "project-9-summer-of-25.html",
-      "icon": "fa fa-pen-to-square",
-      "visibleOnTablet": true
+      "icon": "fa fa-pen-to-square"
     },
     {
       "id": 4,
       "title": "CompClub Hub 2.0",
       "link": "project-6-compclub-hub-2.html",
       "icon": "fa fa-trophy",
-      "visibleOnTablet": false
+      "visibleMd": false
     },
     {
       "id": 5,
       "title": "Fire on Marz",
       "link": "project-10-fire-on-marz.html",
       "icon": "fa fa-palette",
-      "visibleOnTablet": false
+      "visibleLg": false
     },
     {
       "id": 6,
       "title": "Digital Scrapbook",
       "link": "project-11-digital-scrapbook.html",
       "icon": "fa fa-memory",
-      "visibleOnTablet": false
+      "visibleLg": false
     }
   ]
 };
