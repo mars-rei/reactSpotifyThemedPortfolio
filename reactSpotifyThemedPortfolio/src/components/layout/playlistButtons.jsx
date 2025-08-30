@@ -10,7 +10,7 @@ const PlaylistButtons = ({ data }) => {
             href={button.link}
             >
               <div className="flex-shrink-0 w-full py-2 bg-[#282828] rounded-md flex items-center gap-3 pl-2 pr-4">
-                <div className="w-6 h-6 md:w-8 md:h-8 flex items-center justify-center">
+                <div className="w-6 h-6 md:w-10 md:h-10 flex items-center justify-center">
                   <span className={`fa ${button.icon}`}></span>
                 </div>
                 <p className="text-sm font-semibold">{button.name}</p>

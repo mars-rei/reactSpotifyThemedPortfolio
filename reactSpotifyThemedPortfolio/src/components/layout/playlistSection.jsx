@@ -22,19 +22,19 @@ const PlaylistSection = ({ data }) => {
               `}
             >
               <div className="rounded-lg flex-shrink-0 p-4 md:p-0 w-54 md:w-full">
-                {project.image ? (
-                  <div className="w-full">
+                <div className="w-full">
+                  {project.image ? (
                     <img 
                       src={project.image} 
                       className="rounded-md" 
-                      alt={project.title} 
                     />
-                  </div>
-                ) :  (
-                  <div className="w-full aspect-[1/1] bg-[#535353] flex items-center justify-center rounded-md">
-                    <i className={`fa-4x text-[#121212] ${project.icon}`}></i>
-                  </div>
-                )}
+                  ) :  (
+                    <img 
+                      src="/images/blank.png" 
+                      className="rounded-md" 
+                    />
+                  )}
+                </div>
 
                 <p className="mt-3 text-sm md:font-semibold truncate">{project.title}</p>
               </div>
