@@ -4,7 +4,7 @@ import ClosedRightBar from '../components/layout/closedRightBar';
 import BottomBar from '../components/layout/bottomBar'; 
 import MobileNav from '../components/layout/mobileNav'; 
 
-import Profile from '../components/layout/profile'; 
+import Profile from '../components/oneTimeUse/profile'; 
 
 import PlaylistSection from '../components/layout/playlistSection'; 
 import archivedProjects from '../data/archivedProjects'; 

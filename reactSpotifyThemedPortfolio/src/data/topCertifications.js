@@ -1,6 +1,6 @@
 const topCertifications = {
   "title": "Certifications",
-  "date": "July 2025",
+  "date": "August 2025",
   "viewAllLink": "certifications.html",
   "projects": [
     {

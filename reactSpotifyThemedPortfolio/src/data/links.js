@@ -9,7 +9,7 @@ const links = {
     },
     {
       "id": 2,
-      "name": "Old Portfolio",
+      "name": "Backup Portfolio",
       "link": "https://reminiscent-flannel-fe7.notion.site/my-projects-0cd061a938b0467d98cb56019a970f6d?source=copy_link",
       "icon": "fa fa-briefcase"      
     },

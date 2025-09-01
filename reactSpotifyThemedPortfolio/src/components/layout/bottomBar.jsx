@@ -2,7 +2,12 @@ const pageData = {
   '/': {
     icon: 'fa fa-home',
     song: 'こんにちは! Bonjour! Hallo! Hi!',
-    artist: 'Home',
+    artist: 'Home'
+  },
+  '/about': {
+    icon: 'fa fa-user',
+    song: 'Highlights',
+    artist:'About'
   }
 };
 

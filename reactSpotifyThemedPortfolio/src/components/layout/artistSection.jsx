@@ -33,7 +33,7 @@ const ArtistSection = ({ data }) => {
                   )}
                 </div>
 
-                <p className="mt-3 text-sm md:font-semibold truncate">{education.title}</p>
+                <p className="mt-3 text-sm md:font-semibold">{education.title}</p>
               </div>
             </a>
           ))}

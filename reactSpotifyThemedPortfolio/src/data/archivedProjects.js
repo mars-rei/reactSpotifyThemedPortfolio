@@ -1,6 +1,6 @@
 const archivedProjects = {
   "title": "Archived Projects",
-  "date": "July 2025",
+  "date": "August 2025",
   "viewAllLink": "projects.html?filter=complete",
   "projects": [
     {

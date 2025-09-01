@@ -4,7 +4,7 @@ const PlaylistSection = ({ data }) => {
       <p className="text-lg md:text-2xl font-bold">{data.title}</p>
       <div className="hidden md:flex flex-row justify-between"> 
         <p className="mb-4 text-sm text-faded">As of {data.date}</p> 
-        <a href={data.viewAllLink}>
+        <a href={data.viewAllLink} className={data.viewAllLink ? "md:inline-flex hidden" : "hidden"}>
           <p className="mb-4 text-sm text-faded font-semibold">Show All</p>
         </a>
       </div>
@@ -36,7 +36,7 @@ const PlaylistSection = ({ data }) => {
                   )}
                 </div>
 
-                <p className="mt-3 text-sm md:font-semibold truncate">{project.title}</p>
+                <p className="mt-3 text-sm md:font-semibold">{project.title}</p>
               </div>
             </a>
           ))}
