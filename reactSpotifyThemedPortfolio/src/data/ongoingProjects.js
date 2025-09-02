@@ -1,7 +1,7 @@
 const ongoingProjects = {
   "title": "Ongoing Projects",
   "date": "August 2025",
-  "viewAllLink": "projects.html?filter=ongoing",
+  "viewAllLink": "/projects?filter=ongoing",
   "projects": [
     {
       "id": 1,

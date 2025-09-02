@@ -7,6 +7,7 @@ import ClosedRightBar from '../components/layout/closedRightBar';
 import BottomBar from '../components/layout/bottomBar'; 
 import MobileNav from '../components/layout/mobileNav'; 
 
+import ArtistSection from '../components/layout/artistSection'; 
 import ArtistPopularSongs from '../components/layout/artistPopularSongs'; 
 import educations from '../data/educations'; 
 
@@ -260,8 +261,14 @@ const About = () => {
                         </div>
                       </div>
 
-                      <ArtistPopularSongs data={educations} />
+                      <div class="md:hidden">
+                        <ArtistPopularSongs data={educations} />
+                      </div>
 
+                      <div class="hidden md:inline-block">
+                        <ArtistSection data={educations} />
+                      </div>
+                      
                       <PlaylistSection data={highlightedProjects} />
 
                       <div class="mt-6 pb-2 hidden md:inline-block">

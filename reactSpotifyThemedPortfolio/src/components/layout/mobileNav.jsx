@@ -10,30 +10,34 @@ const MobileNav = () => {
                         <span className="text-xs">Home</span>
                     </div>
                 </Link>
+
                 <Link to="/about" className="flex-1">
                     <div className="flex flex-col justify-center items-center">
                         <span className="fa fa-user text-2xl mb-2" aria-hidden="true"></span>
                         <span className="text-xs">About</span>
                     </div>
                 </Link>
-                <a href="" className="flex-1">
-                <div className="flex flex-col justify-center items-center">
-                    <span className="fa fa-folder text-2xl mb-2" aria-hidden="true"></span>
-                    <span className="text-xs">Projects</span>
-                </div>
-                </a>
-                <a href="" className="flex-1">
-                <div className="flex flex-col justify-center items-center">
-                    <span className="fa fa-certificate text-2xl mb-2" aria-hidden="true"></span>
-                    <span className="text-xs">Certs</span>
-                </div>
-                </a>
-                <a href="" className="flex-1">
-                <div className="flex flex-col justify-center items-center">
-                    <span className="fa fa-address-card text-2xl mb-2" aria-hidden="true"></span>
-                    <span className="text-xs">Contact</span>
-                </div>
-                </a>
+
+                <Link to="/projects" className="flex-1">
+                    <div className="flex flex-col justify-center items-center">
+                        <span className="fa fa-folder text-2xl mb-2" aria-hidden="true"></span>
+                        <span className="text-xs">Projects</span>
+                    </div>
+                </Link>
+
+                <Link to="/certifications" className="flex-1">
+                    <div className="flex flex-col justify-center items-center">
+                        <span className="fa fa-certificate text-2xl mb-2" aria-hidden="true"></span>
+                        <span className="text-xs">Certs</span>
+                    </div>
+                </Link>
+                
+                <Link to="/contact" className="flex-1">
+                    <div className="flex flex-col justify-center items-center">
+                        <span className="fa fa-address-card text-2xl mb-2" aria-hidden="true"></span>
+                        <span className="text-xs">Contact</span>
+                    </div>
+                </Link>
             </div>
         </nav>
 

@@ -8,6 +8,21 @@ const pageData = {
     icon: 'fa fa-user',
     song: 'Highlights',
     artist:'About'
+  },
+  '/projects': {
+    icon: 'fa fa-folder',
+    song: 'Project Directory',
+    artist:'Projects'
+  },
+  '/certifications': {
+    icon: 'fa fa-certificate',
+    song: 'Formal & Acknowledged',
+    artist:'Certifications'
+  },
+  '/contact': {
+    icon: 'fa fa-address-card',
+    song: 'Links & Contact',
+    artist:'Contact Me'
   }
 };
 

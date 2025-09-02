@@ -21,11 +21,11 @@ const TopBar = () => {
       </div>
         
       <div class="flex items-center justify-end mr-2 lg:w-1/4 md:w-2/4">
-        <a href="/contact">
+        <Link to="/contact" >
           <div class="rounded-full bg-white px-4 h-8 flex items-center text-faded mr-4">
             <p class="font-bold text-[#121212]">Contact me</p>
           </div>
-        </a>
+        </Link>
     
         <div class="rounded-full bg-[#282828] h-12 w-12 flex items-center justify-center">
           <img src="/images/headshot.jpeg" class="rounded-full h-8 w-8" alt="Profile" />
