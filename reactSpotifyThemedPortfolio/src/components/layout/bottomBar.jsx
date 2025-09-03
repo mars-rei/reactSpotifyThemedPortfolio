@@ -23,6 +23,31 @@ const pageData = {
     icon: 'fa fa-address-card',
     song: 'Links & Contact',
     artist:'Contact Me'
+  },
+  '/e1-kevihs': {
+    icon: 'fa fa-school',
+    song: 'King Edward VI Handsworth',
+    artist:'Education'
+  },
+  '/e2-bcu': {
+    icon: 'fa fa-school',
+    song: 'Birmingham City University',
+    artist:'Education'
+  },
+  '/e3-cisco': {
+    icon: 'fa fa-school',
+    song: 'Cisco Networking Academy',
+    artist:'Education'
+  },
+  '/e4-datacamp': {
+    icon: 'fa fa-school',
+    song: 'DataCamp',
+    artist:'Education'
+  },
+  '/e5-freecodecamp': {
+    icon: 'fa fa-school',
+    song: 'freeCodeCamp',
+    artist:'Education'
   }
 };
 

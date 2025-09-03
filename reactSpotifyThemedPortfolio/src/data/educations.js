@@ -5,33 +5,34 @@ const educations = {
     {
       "id": 1,
       "title": "Birmingham City University",
-      "link": "education-2-bcu.html",
+      "link": "/e2-bcu",
       "image": "/images/e2-1.jpg",
-      "description": "BSc Computer Science (with Honours)."
+      "description": "BSc Computer Science (with Honours).",
+      "duration": "From 2016 - 2023"
     },
     {
       "id": 2,
       "title": "DataCamp",
-      "link": "education-4-datacamp.html",
+      "link": "/e4-datacamp",
       "description": "Personal development."
     },
     {
       "id": 3,
       "title": "freeCodeCamp",
-      "link": "education-5-freecodecamp.html",
+      "link": "/e5-freecodecamp",
       "description": "Personal development."
     },
     {
       "id": 4,
       "title": "Cisco Networking Academy",
-      "link": "education-3-cisco.html",
+      "link": "/e3-cisco",
       "description": "For university & personal development.",
       "visibleMd": false
     },
     {
       "id": 5,
       "title": "King Edward VI Handsworth",
-      "link": "education-1-kevihs.html",
+      "link": "/e1-kevihs",
       "image": "/images/e1-1.jpg",
       "description": "GCSEs & A-Levels.",
       "visibleLg": false
