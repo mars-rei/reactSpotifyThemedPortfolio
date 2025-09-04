@@ -10,11 +10,7 @@ import Certifications from './pages/certifications';
 
 import Contact from './pages/contact'; 
 
-import E1 from './pages/e1-kevihs';
-import E2 from './pages/e2-bcu';
-import E3 from './pages/e3-cisco';
-import E4 from './pages/e4-datacamp';
-import E5 from './pages/e5-freecodecamp';
+import Education from './pages/educationTemplate';
 
 function App() {
   return (
@@ -31,11 +27,11 @@ function App() {
 
         <Route path="/contact" element={<Contact />} />
 
-        <Route path="/e1-kevihs" element={<E1 />} />
-        <Route path="/e2-bcu" element={<E2 />} />
-        <Route path="/e3-cisco" element={<E3 />} />
-        <Route path="/e4-datacamp" element={<E4 />} />
-        <Route path="/e5-freecodecamp" element={<E5 />} />
+        <Route path="/e1-kevihs" element={<Education education="/e1-kevihs"/>} />
+        <Route path="/e2-bcu" element={<Education education="/e2-bcu"/>} />
+        <Route path="/e3-cisco" element={<Education education="/e3-cisco"/>} />
+        <Route path="/e4-datacamp" element={<Education education="/e4-datacamp"/>} />
+        <Route path="/e5-freecodecamp" element={<Education education="/e5-freecodecamp"/>} />
 
       </Routes>
     </Router>

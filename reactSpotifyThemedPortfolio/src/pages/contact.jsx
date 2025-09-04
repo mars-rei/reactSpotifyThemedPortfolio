@@ -143,7 +143,7 @@ const Contact = () => {
                     >
                       View My Code
                     </a>
-                    <p class="text-xs text-faded flex justify-center">GitHub green > Anilist green. (This is a lie.)</p> 
+                    <p class="text-xs text-faded flex justify-center">GitHub green {`>`} Anilist green. (This is a lie.)</p> 
                   </div>
 
                   <a href="https://github.com/mars-rei" class="md:hidden">
@@ -161,7 +161,7 @@ const Contact = () => {
                           <p class="text-sm">Committed!</p>
                         </li>
                       </ul>
-                      <p class="text-xs text-faded flex justify-center">GitHub green > Anilist green. (This is a lie.)</p> 
+                      <p class="text-xs text-faded flex justify-center">GitHub green {`>`} Anilist green. (This is a lie.)</p> 
                     </div>
                   </a>
 
