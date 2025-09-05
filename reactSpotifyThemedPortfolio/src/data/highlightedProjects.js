@@ -5,17 +5,22 @@ const highlightedProjects = {
     {
       "id": 1,
       "title": "BMW Group Physical Asset Tracking System",
-      "link": "project-7-bmw-tracking-system.html",
+      "link": "/p7-bmw-group-physical-asset-tracking-system",
     },
     {
       "id": 2,
       "title": "BookBot",
-      "link": "project-2-bookbot.html",
+      "link": "/p2-bookbot",
     },
     {
       "id": 3,
       "title": "Spotify Themed Portfolio",
-      "link": "project-5-spotify-portfolio.html",
+      "link": "/p5-spotify-themed-portfolio",
+    },
+    {
+      "id": 4,
+      "title": "React Spotify Themed Portfolio",
+      "link": "/p13-react-spotify-themed-portfolio",
     }
   ]
 };

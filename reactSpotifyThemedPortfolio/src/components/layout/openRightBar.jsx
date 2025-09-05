@@ -31,7 +31,7 @@ const OpenRightBar = ({ projectLink }) => {
   } = details;
   
   return (
-    <div class="bg-[#121212] w-68 p-2 flex flex-col overflow-y-auto scrollbar-hide h-[calc(100vh-9.5rem)] relative rounded-lg">
+    <div class="hidden bg-[#121212] w-68 p-2 md:flex flex-col overflow-y-auto scrollbar-hide h-[calc(100vh-9.5rem)] relative rounded-lg">
       <div class="absolute inset-0 overflow-hidden">
         <img src={backgroundImage} class="w-full h-full object-cover opacity-20" />
         <div class="absolute inset-0 bg-gradient-to-t from-[#121212] via-[#121212]/80 to-transparent"></div>

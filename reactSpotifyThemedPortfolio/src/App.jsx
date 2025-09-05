@@ -39,7 +39,7 @@ function App() {
         <Route path="/p2-bookbot" element={<Project project="/p2-bookbot"/>} />
         <Route path="/p3-flight-booking-system-in-java" element={<Project project="/p3-flight-booking-system-in-java"/>} />
         <Route path="/p4-compclub-hub" element={<Project project="/p4-compclub-hub"/>} />
-        <Route path="/p5-spotify-themed-portfolio" element={<Project project="/5-spotify-themed-portfolio"/>} />
+        <Route path="/p5-spotify-themed-portfolio" element={<Project project="/p5-spotify-themed-portfolio"/>} />
         <Route path="/p6-compclub-hub-2" element={<Project project="/p6-compclub-hub-2"/>} />
         <Route path="/p7-bmw-group-physical-asset-tracking-system" element={<Project project="/p7-bmw-group-physical-asset-tracking-system"/>} />
         <Route path="/p8-mastermind" element={<Project project="/p8-mastermind"/>} />

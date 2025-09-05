@@ -16,19 +16,19 @@ const Projects = () => {
   }, []);
 
   const projects = [
-    { title: 'React Spotify Themed Portfolio', icon: 'fa fa-briefcase', status: 'ongoing', author: 'mars.rei', path: '' },
-    { title: 'Random Lyric Generator', icon: 'fa fa-dice', status: 'ongoing', author: 'mars.rei', path: '' },
-    { title: 'Summer of \'25 Blog', icon: 'fa fa-pen-to-square', status: 'ongoing', author: 'mars.rei', path: '' },
-    { title: 'Mastermind Command-Line Game', status: 'complete', img: './images/p8-1.png', author: 'mars.rei + 1', path: '' },
-    { title: 'BMW Group Physical Asset Tracking System', status: 'complete', img: './images/p7-1.png', author: 'mars.rei + 5', path: '' },
-    { title: 'Spotify Themed Portfolio', img: './images/p5-1.png', status: 'complete', author: 'mars.rei', path: '' },
-    { title: 'CompClub Hub', status: 'complete', img: './images/p4-1.png', author: 'mars.rei + 2', path: '' },
-    { title: 'Flight Booking System in Java', status: 'complete', img: './images/p3-1.png', author: 'mars.rei + 1', path: '' },
-    { title: 'BookBot', status: 'complete', img: './images/p2-1.jpg', author: 'mars.rei + 4', path: '' },
-    { title: 'IM SwissGambit', status: 'complete', img: './images/p1-1.png', author: 'mars.rei', path: '' },
-    { title: 'CompClub Hub 2.0', icon: 'fa fa-trophy', status: 'ongoing', author: 'mars.rei', path: '' },
-    { title: 'Fire on Marz', icon: 'fa fa-palette', status: 'ongoing', author: 'mars.rei', path: '' },
-    { title: 'Digital Scrapbook', icon: 'fa fa-memory', status: 'ongoing', author: 'mars.rei + ?', path: '' }
+    { title: 'React Spotify Themed Portfolio', icon: 'fa fa-briefcase', status: 'ongoing', author: 'mars.rei', path: '/p13-react-spotify-themed-portfolio' },
+    { title: 'Random Lyric Generator', icon: 'fa fa-dice', status: 'ongoing', author: 'mars.rei', path: '/p12-random-lyric-generator' },
+    { title: 'Summer of \'25 Blog', icon: 'fa fa-pen-to-square', status: 'ongoing', author: 'mars.rei', path: '/p9-summer-of-25-blog' },
+    { title: 'Mastermind Command-Line Game', status: 'complete', img: './images/p8-1.png', author: 'mars.rei + 1', path: '/p8-mastermind' },
+    { title: 'BMW Group Physical Asset Tracking System', status: 'complete', img: './images/p7-1.png', author: 'mars.rei + 5', path: '/p7-bmw-group-physical-asset-tracking-system' },
+    { title: 'Spotify Themed Portfolio', img: './images/p5-1.png', status: 'complete', author: 'mars.rei', path: '/p5-spotify-themed-portfolio' },
+    { title: 'CompClub Hub', status: 'complete', img: './images/p4-1.png', author: 'mars.rei + 2', path: '/p4-compclub-hub' },
+    { title: 'Flight Booking System in Java', status: 'complete', img: './images/p3-1.png', author: 'mars.rei + 1', path: '/p3-flight-booking-system-in-java' },
+    { title: 'BookBot', status: 'complete', img: './images/p2-1.jpg', author: 'mars.rei + 4', path: '/p2-bookbot' },
+    { title: 'IM SwissGambit', status: 'complete', img: './images/p1-1.png', author: 'mars.rei', path: '/p1-im-swissgambit' },
+    { title: 'CompClub Hub 2.0', icon: 'fa fa-trophy', status: 'ongoing', author: 'mars.rei', path: '/p6-compclub-hub-2' },
+    { title: 'Fire on Marz', icon: 'fa fa-palette', status: 'ongoing', author: 'mars.rei', path: '/p10-fire-on-marz' },
+    { title: 'Digital Scrapbook', icon: 'fa fa-memory', status: 'ongoing', author: 'mars.rei + ?', path: '/p11-pinterest-themed-digital-scrapbook' }
   ];
 
   const toggleStatus = (status) => {

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-// VideoSlideshow component
 const VideoSlideshow = ({ items }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
