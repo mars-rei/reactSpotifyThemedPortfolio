@@ -48,6 +48,11 @@ const pageData = {
     icon: 'fa fa-school',
     song: 'freeCodeCamp',
     artist:'Education'
+  },
+  '/p1-im-swissgambit': {
+    icon: 'fa fa-chess',
+    song: 'IM SwissGambit',
+    artist:'Project'
   }
 };
 
