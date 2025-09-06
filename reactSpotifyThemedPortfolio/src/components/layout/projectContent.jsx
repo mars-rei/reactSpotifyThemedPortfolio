@@ -4,6 +4,10 @@ import projects from '../../data/projects';
 
 import VideoSlideshow from './videoSlideshow';
 import ImageSlideshow from './imageSlideshow';
+import ProjectFeatures from './projectFeatures';
+import ProjectPowerpoint from './projectPowerpoint';
+import ProjectPdf from './projectPdf';
+
 
 const ProjectContent = ({ projectLink }) => {
   const findProjectByLink = (link) => {
@@ -47,12 +51,24 @@ const ProjectContent = ({ projectLink }) => {
                   <p className="text-md font-bold mb-4">{track.name}</p>
                   <p className="text-sm text-faded">{track.description}</p>
 
-                  {track.type === "slideshow" && (
+                  {track.type === "photos" && (
                     <ImageSlideshow items={track.items} />
                   )}
                 
                   {track.type === "videos" && (
                     <VideoSlideshow items={track.items} />
+                  )}
+
+                  {track.type === "list" && (
+                    <ProjectFeatures items={track.items} />
+                  )}
+
+                  {track.type === "powerpoint" && (
+                    <ProjectPowerpoint items={track.items} />
+                  )}
+
+                  {track.type === "pdf" && (
+                    <ProjectPdf items={track.items} />
                   )}
                 </div>
               )}

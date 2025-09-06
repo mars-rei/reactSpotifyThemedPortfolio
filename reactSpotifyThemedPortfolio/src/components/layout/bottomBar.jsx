@@ -53,6 +53,66 @@ const pageData = {
     icon: 'fa fa-chess',
     song: 'IM SwissGambit',
     artist:'Project'
+  },
+  '/p2-bookbot': {
+    icon: 'fa fa-robot',
+    song: 'BookBot',
+    artist:'Project'
+  },
+  '/p3-flight-booking-system-in-java': {
+    icon: 'fa fa-plane',
+    song: 'Flight Booking System in Java',
+    artist:'Project'
+  },
+  '/p4-compclub-hub': {
+    icon: 'fa fa-trophy',
+    song: 'CompClub Hub',
+    artist:'Project'
+  },
+  '/p5-spotify-themed-portfolio': {
+    icon: 'fa-briefcase',
+    song: 'Spotify Themed Portfolio',
+    artist:'Project'
+  },
+  '/p6-compclub-hub-2': {
+    icon: 'fa fa-trophy',
+    song: 'CompClub Hub 2.0',
+    artist:'Project'
+  },
+  '/p7-bmw-group-physical-asset-tracking-system': {
+    icon: 'fa fa-truck-ramp-box',
+    song: 'BMW Group Physical Asset Tracking System',
+    artist:'Project'
+  },
+  '/p8-mastermind': {
+    icon: 'fa fa-chess-board',
+    song: 'Mastermind Command-Line Game',
+    artist:'Project'
+  },
+  '/p9-summer-of-25-blog': {
+    icon: 'fa fa-pen-to-square',
+    song: 'Summer of \'25 Blog',
+    artist:'Project'
+  },
+  '/p10-fire-on-marz': {
+    icon: 'fa fa-palette',
+    song: 'Fire on Marz',
+    artist:'Project'
+  } ,
+  '/p11-pinterest-themed-digital-scrapbook': {
+    icon: 'fa fa-memory',
+    song: 'Pinterest Themed Digital Scrapbook',
+    artist:'Project'
+  },
+  '/p12-random-lyric-generator': {
+    icon: 'fa fa-dice',
+    song: 'Random Lyric Generator',
+    artist:'Project'
+  },
+  '/p13-react-spotify-themed-portfolio': {
+    icon: 'fa fa-briefcase',
+    song: 'Spotify Themed Portfolio in React',
+    artist:'Project'
   }
 };
 

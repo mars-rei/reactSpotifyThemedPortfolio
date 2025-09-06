@@ -27,10 +27,11 @@ const ImageSlideshow = ({ items }) => {
                   {items[currentSlide].caption}
                 </figcaption>
 
-
-                <p className="text-xs text-faded mt-5 text-center">
-                  Slide {currentSlide + 1}/{items.length}
-                </p>
+                {currentSlide === 0 && items.length > 1 && (
+                  <p className="text-xs text-faded mt-5 text-center">
+                    Slide {currentSlide + 1}/{items.length}
+                  </p>
+                )}
                 
                 <div className="flex justify-center mt-3">
                   {currentSlide === 0 && items.length > 1 && (
@@ -46,7 +47,7 @@ const ImageSlideshow = ({ items }) => {
                   )}
                   
                   {currentSlide > 0 && currentSlide < items.length - 1 && items.length > 1 && (
-                    <div>
+                    <div className="flex">
                       <div onClick={prev} className="cursor-pointer hover:text-white mx-2">
                         <i className="fa-solid fa-arrow-left fa-sm"></i>
                       </div>
