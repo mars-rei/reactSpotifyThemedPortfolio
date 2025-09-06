@@ -52,29 +52,31 @@ const projects = [
         "title": "Project 1",
         "subtitle": "IM SwissGambit",
         "author": "Imogen Dicen",
-        "duration": "Nov 2022 - Apr 2023",
-        "builtFor": "A-Level Computer Science NEA",
-        "collaboration": "Individual",
-        "levelOfCompletion": "Incomplete",
         "backgroundImage": "./images/p1-1.png",
+        "nonProjectLinks": [
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Nov 2022 - Apr 2023"},
+          {"name": "Built For", "icon": "fa fa-user", "text": "A-Level Computer Science NEA"},
+          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Incomplete"},
+        ],
         "projectLinks": [
           { 
             "platform": "GitHub", 
             "text": "Link to IM SwissGambit", 
-            "url": "https://github.com/mars-rei/IM-SwissGambit"
+            "url": "https://github.com/mars-rei/IM-SwissGambit",
+            "icon": "fa-brands fa-github"
           }
         ],
         "technologiesUsed": [
-          { "tech": "Python", "icon": "fab fa-python" },
-          { "tech": "HTML", "icon": "fab fa-html5" },
-          { "tech": "CSS", "icon": "fab fa-css3-alt" }
+          { "tech": "Python", "icon": "fa-brands fa-python" },
+          { "tech": "HTML", "icon": "fa-brands fa-html5" },
+          { "tech": "CSS", "icon": "fa-brands fa-css3-alt" }
         ],
         "technologiesLearnt": [
-          { "tech": "Pygame", "icon": "fas fa-gamepad" }
+          { "tech": "Pygame", "icon": "fa-brands fa-python" }
         ]
       }
     ]
-
   }
 ];
 

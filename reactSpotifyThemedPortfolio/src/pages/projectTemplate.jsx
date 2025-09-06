@@ -20,7 +20,7 @@ const Project = ({ project }) => {
           <div className="md:flex md:flex-1 md:overflow-hidden md:mx-2 md:space-x-2">
             <LeftBar />
 
-            <div class="flex-1 bg-[#121212] rounded-lg overflow-y-auto h-[calc(100vh-9.5rem)]" id="mainContent">
+            <div class="flex-1 bg-[#121212] rounded-lg overflow-y-auto md:h-[calc(100vh-9.5rem)]" id="mainContent">
 
               <div class="mx-5 pb-24 text-white">
 

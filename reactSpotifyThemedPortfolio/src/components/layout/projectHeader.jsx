@@ -6,14 +6,6 @@ const SkillsDemonstrated = ({ projectLink }) => {
   };
   
   const project = findProjectByLink(projectLink);
-  
-  if (!project) {
-    return (
-      <div className="bg-[#121212] w-68 p-2 flex items-center justify-center h-[calc(100vh-9.5rem)] rounded-lg">
-        <p className="text-white">Project not found</p>
-      </div>
-    );
-  }
 
   return (
     <div>

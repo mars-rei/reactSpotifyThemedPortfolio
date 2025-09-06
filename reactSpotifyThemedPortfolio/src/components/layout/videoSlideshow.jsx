@@ -12,20 +12,18 @@ const VideoSlideshow = ({ items }) => {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <div className="w-full h-full bg-[#282828] rounded-md">
+    <div className="md:flex md:justify-center md:items-center">
+      <div className="md:w-full h-full bg-[#282828] rounded-md">
         <div className="h-full overflow-x-auto scrollbar-hide">
-          <div className="flex flex-nowrap">
+          <div className="flex flex-nowrap md:gap-x-8 lg:gap-x-0">
             <div className="flex-shrink-0 w-full flex justify-center items-center mt-5 mb-2">
               <figure className="space-y-1">
                 <iframe 
-                  className="md:w-75 md:h-45 lg:w-135 lg:h-70 xl:w-180 xl:h-120"
+                  className="mx-auto md:w-75 md:h-45 lg:w-135 lg:h-70 xl:w-180 xl:h-120"
                   src={items[currentSlide].src} 
-                  frameBorder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                   referrerPolicy="strict-origin-when-cross-origin" 
                   allowFullScreen
-                  title={items[currentSlide].caption}
                 />
 
                 <figcaption className="text-xs text-faded text-center">

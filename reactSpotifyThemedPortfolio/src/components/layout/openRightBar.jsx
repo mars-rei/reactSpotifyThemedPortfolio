@@ -20,10 +20,7 @@ const OpenRightBar = ({ projectLink }) => {
     title,
     subtitle,
     author,
-    duration,
-    builtFor,
-    collaboration,
-    levelOfCompletion,
+    nonProjectLinks,
     backgroundImage,
     projectLinks,
     technologiesUsed,
@@ -47,17 +44,12 @@ const OpenRightBar = ({ projectLink }) => {
         <div class="rounded-lg mx-2 bg-[#282828] flex mt-4 p-3 flex-col">
           <p class="font-bold text-md">Project Details</p>
 
-          <p class="text-md font-semibold mt-5">Duration</p>
-          <p class="text-sm text-faded">{duration}</p>
-
-          <p class="text-md font-semibold mt-5">Built for</p>
-          <p class="text-sm text-faded">{builtFor}</p>
-
-          <p class="text-md font-semibold mt-5">Collaboration</p>
-          <p class="text-sm text-faded">{collaboration}</p>
-
-          <p class="text-md font-semibold mt-5">Level of Completion</p>
-          <p class="text-sm text-faded">{levelOfCompletion}</p>
+          {nonProjectLinks.map(info => (
+            <div>
+              <p class="text-md font-semibold mt-5">{info.name}</p>
+              <p class="text-sm text-faded">{info.text}</p>
+            </div>
+          ))}
 
           {projectLinks.map(link => (
             <a href={link.url} key={link.platform}>
@@ -73,7 +65,7 @@ const OpenRightBar = ({ projectLink }) => {
           {technologiesUsed.map(tech => (
             <div class="flex flex-row items-center mt-5" key={tech.tech}>
               <div class="w-14 h-14 flex items-center justify-center bg-[#121212] rounded-md">
-                <span class={tech.icon}></span>
+                <span class={`${tech.icon} fa-xl`}></span>
               </div>
               <p class="text-sm font-semibold ml-2">{tech.tech}</p>
             </div>
@@ -86,7 +78,7 @@ const OpenRightBar = ({ projectLink }) => {
           {technologiesLearnt.map(tech => (
             <div class="flex flex-row items-center mt-5" key={tech.tech}>
               <div class="w-14 h-14 flex items-center justify-center bg-[#121212] rounded-md">
-                <span class={tech.icon}></span>
+                <span class={`${tech.icon} fa-xl`}></span>
               </div>
               <p class="text-sm font-semibold ml-2">{tech.tech}</p>
             </div>

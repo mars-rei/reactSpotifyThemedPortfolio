@@ -7,21 +7,9 @@ const MobileProjectDetails = ({ projectLink }) => {
   
   const project = findProjectByLink(projectLink);
   
-  if (!project) {
-    return (
-      <div className="bg-[#121212] w-68 p-2 flex items-center justify-center h-[calc(100vh-9.5rem)] rounded-lg">
-        <p className="text-white">Project not found</p>
-      </div>
-    );
-  }
-  
   const details = project.details[0];
   const {
-    author,
-    duration,
-    builtFor,
-    collaboration,
-    levelOfCompletion,
+    nonProjectLinks,
     projectLinks,
     technologiesUsed,
     technologiesLearnt
@@ -32,51 +20,23 @@ const MobileProjectDetails = ({ projectLink }) => {
       <p class="text-lg font-bold">Project Details</p>
 
       <div class="mt-3 space-y-4">
-        <div class="flex flex-row gap-2 justify-center items-center">
-          <div class="bg-[#282828] aspect-square rounded-md w-12 flex justify-center items-center">
-            <span class="fa fa-timeline fa-xl"></span>
+        {nonProjectLinks.map(info => (
+          <div class="flex flex-row gap-2 justify-center items-center">
+            <div class="bg-[#282828] aspect-square rounded-md w-12 h-12 flex justify-center items-center">
+              <span class={`${info.icon} fa-xl`}></span>
+            </div>
+            <div class="min-w-0 flex-1 mr-2">
+              <p class="font-normal text-md">{info.name}</p>
+              <p class="text-xs text-faded">{info.text}</p>
+            </div>
           </div>
-          <div class="min-w-0 flex-1 mr-2">
-            <p class="font-normal text-md">Duration</p>
-            <p class="text-xs text-faded">{duration}</p>
-          </div>
-        </div>
-
-        <div class="flex flex-row gap-2 justify-center items-center">
-          <div class="bg-[#282828] aspect-square rounded-md w-12 flex justify-center items-center">
-            <span class="fa fa-user fa-xl"></span>
-          </div>
-          <div class="min-w-0 flex-1 mr-2">
-            <p class="font-normal text-md">Built for</p>
-            <p class="text-xs text-faded">{builtFor}</p>
-          </div>
-        </div>
-
-        <div class="flex flex-row gap-2 justify-center items-center">
-          <div class="bg-[#282828] aspect-square rounded-md w-12 flex justify-center items-center">
-            <span class="fa fa-user-group fa-xl"></span>
-          </div>
-          <div class="min-w-0 flex-1 mr-2">
-            <p class="font-normal text-md">Collaboration</p>
-            <p class="text-xs text-faded">{collaboration}</p>
-          </div>
-        </div>
-
-        <div class="flex flex-row gap-2 justify-center items-center">
-          <div class="bg-[#282828] aspect-square rounded-md w-12 flex justify-center items-center">
-            <span class="fa fa-list fa-xl"></span>
-          </div>
-          <div class="min-w-0 flex-1 mr-2">
-            <p class="font-normal text-md">Level of Completion</p>
-            <p class="text-xs text-faded">{levelOfCompletion}</p>
-          </div>
-        </div>
+        ))}
 
         {projectLinks.map(link => (
           <a href={link.url} key={link.platform}>
             <div class="flex flex-row gap-2 justify-center items-center">
               <div class="bg-[#282828] aspect-square rounded-md w-12 h-12 flex justify-center items-center">
-                <span class="fa-brands fa-github fa-xl"></span> {/* have to get proper icon per link too */}
+                <span class={`${link.icon} fa-xl`}></span>
               </div>
               <div class="min-w-0 flex-1 mr-2">
                 <p class="font-normal text-md">{link.platform}</p>
@@ -94,7 +54,7 @@ const MobileProjectDetails = ({ projectLink }) => {
               <div class="grid col-span-1 gap-y-2" key={tech.tech}>
                 <div className="flex-shrink-0 w-full py-2 bg-[#282828] rounded-md flex items-center gap-3 pl-2 pr-4">
                   <div className="w-8 h-8 flex items-center justify-center">
-                    <span class={tech.icon}></span>
+                    <span class={`${tech.icon} fa-xl`}></span>
                   </div>
                   <p class="text-sm font-semibold">{tech.tech}</p>
                 </div>
@@ -111,7 +71,7 @@ const MobileProjectDetails = ({ projectLink }) => {
               <div class="grid col-span-1 gap-y-2" key={tech.tech}>
                 <div className="flex-shrink-0 w-full py-2 bg-[#282828] rounded-md flex items-center gap-3 pl-2 pr-4">
                   <div className="w-8 h-8 flex items-center justify-center">
-                    <span class={tech.icon}></span>
+                    <span class={`${tech.icon} fa-xl`}></span>
                   </div>
                   <p class="text-sm font-semibold">{tech.tech}</p>
                 </div>

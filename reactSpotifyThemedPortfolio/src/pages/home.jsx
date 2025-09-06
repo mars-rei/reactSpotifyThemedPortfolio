@@ -36,7 +36,7 @@ const Home = () => {
             {/* scrollable content*/}
             <div className="flex-1 bg-[#121212] md:rounded-lg overflow-y-auto md:h-[calc(100vh-9.5rem)] overflow-x-hidden">
               <div class="relative text-white min-h-full">
-                <div class="absolute inset-0 bg-gradient-to-b from-[#8094af] to-[#121212] opacity-20 h-90"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-[#8094af] to-[#121212] opacity-50 h-90"></div>
 
                 <div class="relative z-10">
                   <Profile />

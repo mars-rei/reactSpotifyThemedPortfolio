@@ -1,6 +1,6 @@
 const Profile = () => {
   return (
-    <div class="flex justify-start items-end pt-16 mx-5"> 
+    <div class="flex justify-start items-center md:items-end pt-16 mx-5"> 
       <div class="w-56 flex justify-center items-center">
         <img src="/images/headshot.jpeg" class="w-56 rounded-full" />
       </div>

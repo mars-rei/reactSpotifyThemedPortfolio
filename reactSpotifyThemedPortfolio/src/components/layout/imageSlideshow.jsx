@@ -12,16 +12,15 @@ const ImageSlideshow = ({ items }) => {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <div className="md:w-full lg:w-160 h-full bg-[#282828] rounded-md">
+    <div className="md:flex md:justify-center md:items-center">
+      <div className="md:w-full h-full bg-[#282828] rounded-md">
         <div className="h-full overflow-x-auto scrollbar-hide">
-          <div className="flex flex-nowrap md:gap-x-8 lg:gap-x-0">
-            <div className="slide flex-shrink-0 md:w-full lg:w-160 flex justify-center items-center mt-5 mb-2">
+          <div className="md:flex md:flex-nowrap md:gap-x-8 lg:gap-x-0">
+            <div className="flex-shrink-0 md:w-full flex justify-center items-center mt-5 mb-2">
               <figure className="space-y-1">
                 <img 
                   src={items[currentSlide].src} 
-                  className="rounded-md md:h-full lg:h-160 object-contain" 
-                  alt={items[currentSlide].caption} 
+                  className="rounded-md md:h-160 object-contain" 
                 />
 
                 <figcaption className="text-xs text-faded text-center">
