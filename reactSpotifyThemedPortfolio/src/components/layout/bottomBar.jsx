@@ -70,7 +70,7 @@ const pageData = {
     artist:'Project'
   },
   '/p5-spotify-themed-portfolio': {
-    icon: 'fa-briefcase',
+    icon: 'fa fa-briefcase',
     song: 'Spotify Themed Portfolio',
     artist:'Project'
   },

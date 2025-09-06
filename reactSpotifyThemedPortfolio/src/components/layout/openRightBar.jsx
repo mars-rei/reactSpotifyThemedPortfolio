@@ -7,14 +7,6 @@ const OpenRightBar = ({ projectLink }) => {
   
   const project = findProjectByLink(projectLink);
   
-  if (!project) {
-    return (
-      <div className="bg-[#121212] w-68 p-2 flex items-center justify-center h-[calc(100vh-9.5rem)] rounded-lg">
-        <p className="text-white">Project not found</p>
-      </div>
-    );
-  }
-  
   const details = project.details[0];
   const {
     title,
@@ -59,31 +51,35 @@ const OpenRightBar = ({ projectLink }) => {
           ))}
         </div>
 
-        <div class="rounded-lg mx-2 bg-[#282828] flex mt-4 p-3 flex-col">
-          <p class="font-bold text-md">Technologies Used</p>
-          
-          {technologiesUsed.map(tech => (
-            <div class="flex flex-row items-center mt-5" key={tech.tech}>
-              <div class="w-14 h-14 flex items-center justify-center bg-[#121212] rounded-md">
-                <span class={`${tech.icon} fa-xl`}></span>
+        {technologiesUsed && technologiesUsed.length > 0 && (
+          <div class="rounded-lg mx-2 bg-[#282828] flex mt-4 p-3 flex-col">
+            <p class="font-bold text-md">Technologies Used</p>
+            
+            {technologiesUsed.map(tech => (
+              <div class="flex flex-row items-center mt-5" key={tech.tech}>
+                <div class="w-14 h-14 flex items-center justify-center bg-[#121212] rounded-md">
+                  <span class={`${tech.icon} fa-xl`}></span>
+                </div>
+                <p class="text-sm font-semibold ml-2">{tech.tech}</p>
               </div>
-              <p class="text-sm font-semibold ml-2">{tech.tech}</p>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
 
-        <div class="rounded-lg mx-2 bg-[#282828] flex mt-4 p-3 flex-col">
-          <p class="font-bold text-md">Technologies Learnt</p>
-          
-          {technologiesLearnt.map(tech => (
-            <div class="flex flex-row items-center mt-5" key={tech.tech}>
-              <div class="w-14 h-14 flex items-center justify-center bg-[#121212] rounded-md">
-                <span class={`${tech.icon} fa-xl`}></span>
+        {technologiesLearnt && technologiesLearnt.length > 0 && (
+          <div class="rounded-lg mx-2 bg-[#282828] flex mt-4 p-3 flex-col">
+            <p class="font-bold text-md">Technologies Learnt</p>
+            
+            {technologiesLearnt.map(tech => (
+              <div class="flex flex-row items-center mt-5" key={tech.tech}>
+                <div class="w-14 h-14 flex items-center justify-center bg-[#121212] rounded-md">
+                  <span class={`${tech.icon} fa-xl`}></span>
+                </div>
+                <p class="text-sm font-semibold ml-2">{tech.tech}</p>
               </div>
-              <p class="text-sm font-semibold ml-2">{tech.tech}</p>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
