@@ -16,7 +16,7 @@ const Projects = () => {
   }, []);
 
   const projects = [
-    { title: 'React Spotify Themed Portfolio', icon: 'fa fa-briefcase', status: 'ongoing', author: 'mars.rei', path: '/p13-react-spotify-themed-portfolio' },
+    { title: 'React Spotify Themed Portfolio', img:"./images/p13-1.png", status: 'ongoing', author: 'mars.rei', path: '/p13-react-spotify-themed-portfolio' },
     { title: 'Random Lyric Generator', icon: 'fa fa-dice', status: 'ongoing', author: 'mars.rei', path: '/p12-random-lyric-generator' },
     { title: 'Summer of \'25 Blog', icon: 'fa fa-pen-to-square', status: 'ongoing', author: 'mars.rei', path: '/p9-summer-of-25-blog' },
     { title: 'Mastermind Command-Line Game', status: 'complete', img: './images/p8-1.png', author: 'mars.rei + 1', path: '/p8-mastermind' },

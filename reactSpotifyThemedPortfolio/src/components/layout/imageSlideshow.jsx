@@ -17,17 +17,17 @@ const ImageSlideshow = ({ items }) => {
         <div className="h-full overflow-x-auto scrollbar-hide">
           <div className="md:flex md:flex-nowrap md:gap-x-8 lg:gap-x-0">
             <div className="flex-shrink-0 md:w-full flex justify-center items-center mt-5 mb-2">
-              <figure className="space-y-1">
+              <figure className="space-y-1 w-screen">
                 <img 
                   src={items[currentSlide].src} 
-                  className="rounded-md md:h-160 object-contain" 
+                  className="mx-auto rounded-md w-full md:w-[85%] lg:w-[55%] xl:w-[40%]" 
                 />
 
                 <figcaption className="text-xs text-faded text-center">
                   {items[currentSlide].caption}
                 </figcaption>
 
-                {currentSlide === 0 && items.length > 1 && (
+                {items.length > 1 && (
                   <p className="text-xs text-faded mt-5 text-center">
                     Slide {currentSlide + 1}/{items.length}
                   </p>

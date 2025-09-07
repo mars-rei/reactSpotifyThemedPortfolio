@@ -17,9 +17,9 @@ const VideoSlideshow = ({ items }) => {
         <div className="h-full overflow-x-auto scrollbar-hide">
           <div className="flex flex-nowrap md:gap-x-8 lg:gap-x-0">
             <div className="flex-shrink-0 w-full flex justify-center items-center mt-5 mb-2">
-              <figure className="space-y-1">
+              <figure className="space-y-1 w-screen">
                 <iframe 
-                  className="mx-auto md:w-75 md:h-45 lg:w-135 lg:h-70 xl:w-180 xl:h-120"
+                  className="w-full aspect-[16/9]"
                   src={items[currentSlide].src} 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                   referrerPolicy="strict-origin-when-cross-origin" 

@@ -6,7 +6,8 @@ const ongoingProjects = {
     {
       "id": 1,
       "title": "React Spotify Themed Portfolio",
-      "link": "/p13-react-spotify-themed-portfolio"
+      "link": "/p13-react-spotify-themed-portfolio",
+      "image": "/images/p13-1.png"
     },
     {
       "id": 2,

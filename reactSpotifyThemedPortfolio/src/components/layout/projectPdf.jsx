@@ -4,10 +4,10 @@ const ProjectPdf = ({ items }) => {
       <div class="hidden md:inline-block md:w-full h-full bg-[#282828] rounded-md overflow-x-auto scrollbar-hide">
         <div class="md:flex md:flex-nowrap">
           <div class="flex-shrink-0 md:w-full flex justify-center items-center mt-5 mb-2">
-            <figure class="space-y-1">
+            <figure class="space-y-1 w-screen">
               <iframe 
-                src={items[0]} 
-                class="w-full md:h-100 lg:h-160"
+                src={`${items[0]}#zoom=FitW`}
+                class="w-full md:h-120 lg:h-140 xl:h-160"
               >
                 <p class="text-sm">Your browser does not support PDFs. 
                   <a href={items[0]} class="text-sm">Download the PDF.</a>
