@@ -7,9 +7,6 @@ import MobileNav from '../components/layout/mobileNav';
 import Profile from '../components/oneTimeUse/profile'; 
 
 import PlaylistSection from '../components/layout/playlistSection'; 
-import archivedProjects from '../data/archivedProjects'; 
-import ongoingProjects from '../data/ongoingProjects'; 
-import topCertifications from '../data/topCertifications'; 
 
 import PlaylistButtons from '../components/layout/playlistButtons'; 
 import skills from '../data/skills'; 
@@ -49,13 +46,14 @@ const Home = () => {
                       </p>
                     </div>
 
-                    <PlaylistSection data={archivedProjects} />
+                    
+                    <PlaylistSection section="archivedProjects" />
 
-                    <PlaylistSection data={ongoingProjects} />
+                    <PlaylistSection section="ongoingProjects" />
 
                     <PlaylistButtons data={skills} />
 
-                    <PlaylistSection data={topCertifications} />
+                    <PlaylistSection section="topCertifications" />
 
                     <ArtistSection data={educations} />
 

@@ -7,6 +7,8 @@ import ClosedRightBar from '../components/layout/closedRightBar';
 import BottomBar from '../components/layout/bottomBar'; 
 import MobileNav from '../components/layout/mobileNav'; 
 
+import projects from '../data/projects';
+
 const Projects = () => {
   const [activeStatus, setActiveStatus] = useState(null);
   
@@ -14,22 +16,6 @@ const Projects = () => {
     const urlFilter = new URLSearchParams(window.location.search);
     setActiveStatus(urlFilter.get('filter') || null);
   }, []);
-
-  const projects = [
-    { title: 'React Spotify Themed Portfolio', img:"./images/p13-1.png", status: 'ongoing', author: 'mars.rei', path: '/p13-react-spotify-themed-portfolio' },
-    { title: 'Random Lyric Generator', icon: 'fa fa-dice', status: 'ongoing', author: 'mars.rei', path: '/p12-random-lyric-generator' },
-    { title: 'Summer of \'25 Blog', icon: 'fa fa-pen-to-square', status: 'ongoing', author: 'mars.rei', path: '/p9-summer-of-25-blog' },
-    { title: 'Mastermind Command-Line Game', status: 'complete', img: './images/p8-1.png', author: 'mars.rei + 1', path: '/p8-mastermind' },
-    { title: 'BMW Group Physical Asset Tracking System', status: 'complete', img: './images/p7-1.png', author: 'mars.rei + 5', path: '/p7-bmw-group-physical-asset-tracking-system' },
-    { title: 'Spotify Themed Portfolio', img: './images/p5-1.png', status: 'complete', author: 'mars.rei', path: '/p5-spotify-themed-portfolio' },
-    { title: 'CompClub Hub', status: 'complete', img: './images/p4-1.png', author: 'mars.rei + 2', path: '/p4-compclub-hub' },
-    { title: 'Flight Booking System in Java', status: 'complete', img: './images/p3-1.png', author: 'mars.rei + 1', path: '/p3-flight-booking-system-in-java' },
-    { title: 'BookBot', status: 'complete', img: './images/p2-1.jpg', author: 'mars.rei + 4', path: '/p2-bookbot' },
-    { title: 'IM SwissGambit', status: 'complete', img: './images/p1-1.png', author: 'mars.rei', path: '/p1-im-swissgambit' },
-    { title: 'CompClub Hub 2.0', icon: 'fa fa-trophy', status: 'ongoing', author: 'mars.rei', path: '/p6-compclub-hub-2' },
-    { title: 'Fire on Marz', icon: 'fa fa-palette', status: 'ongoing', author: 'mars.rei', path: '/p10-fire-on-marz' },
-    { title: 'Digital Scrapbook', icon: 'fa fa-memory', status: 'ongoing', author: 'mars.rei + ?', path: '/p11-pinterest-themed-digital-scrapbook' }
-  ];
 
   const toggleStatus = (status) => {
     setActiveStatus(activeStatus === status ? null : status);
@@ -95,11 +81,11 @@ const Projects = () => {
               
                 <div class="grid xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-3 gap-4 md:gap-6 mt-5">
                   {filteredProjects.map(project => (
-                    <Link to={project.path} className="contents" key={project.title} title={project.title}>
+                    <Link to={project.link} className="contents" key={project.title} title={project.title}>
                       <div className="min-w-0">
                           <div className="w-full aspect-square bg-[#535353] md:rounded-md">
-                              {project.img ? (
-                                <img src={project.img} className="md:rounded-md" alt={project.title} />
+                              {project.image ? (
+                                <img src={project.image} className="md:rounded-md" alt={project.title} />
                               ) : (
                                 <div className="flex items-center justify-center h-full fa-4x">
                                   <i className={project.icon + " text-[#181818]"}></i>
@@ -107,7 +93,7 @@ const Projects = () => {
                               )}
                           </div>
                           <p className="text-xs md:text-sm md:font-semibold truncate mt-1">{project.title}</p>
-                          <p className="text-xs md:text-sm text-faded">{project.author}</p>
+                          <p className="text-xs md:text-sm text-faded">{project.details[0].author}</p>
                       </div>
                     </Link>
                   ))}

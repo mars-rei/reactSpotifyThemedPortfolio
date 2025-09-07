@@ -11,8 +11,7 @@ import ArtistSection from '../components/layout/artistSection';
 import ArtistPopularSongs from '../components/layout/artistPopularSongs'; 
 import educations from '../data/educations'; 
 
-import PlaylistSection from '../components/layout/playlistSection'; 
-import highlightedProjects from '../data/highlightedProjects'; 
+import PlaylistSection from '../components/layout/playlistSection';
 
 const IntroductionOverlay = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -198,7 +197,6 @@ const ImageOverlay = () => {
 };
 
 
-
 const About = () => {
   return (
     <div>
@@ -269,7 +267,7 @@ const About = () => {
                         <ArtistSection data={educations} />
                       </div>
                       
-                      <PlaylistSection data={highlightedProjects} />
+                      <PlaylistSection section="portfolioHighlights" />
 
                       <div class="mt-6 pb-2 hidden md:inline-block">
                         <IntroductionOverlay />

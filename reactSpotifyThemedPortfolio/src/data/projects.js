@@ -3,10 +3,11 @@ const projects = [
     "id": 1,
     "title": "IM SwissGambit",
     "link": "/p1-im-swissgambit",
-    "status": "archived",
+    "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen",
     "image": "/images/p1-1.png",
+    "icon": 'fa fa-chess',
     "description": "To create a platform that would aid my school’s Chess Club to host tournaments and train the members within it.",
     "furtherDescription": [
       "My project idea was to create a website that would allow the members of the school’s Chess Club to log in, play against each other in tournaments based off the Swiss Pairing system, and play against a Chess AI.",
@@ -85,10 +86,11 @@ const projects = [
     "id": 2,
     "title": "BookBot",
     "link": "/p2-bookbot",
-    "status": "archived",
+    "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen + 4 Others",
     "image": "/images/p2-1.jpg",
+    "icon": 'fa fa-robot',
     "description": "To create a project using both hardware and software, to meet multiple UN sustainability goals.",
     "furtherDescription": [
       "BookBot is an AI aided wheeled robot that helps librarians and users of libraries to increase their efficiencies and make the experience in libraries flawless.",
@@ -241,12 +243,12 @@ const projects = [
     "id": 3,
     "title": "Flight Booking System in Java",
     "link": "/p3-flight-booking-system-in-java",
-    "status": "archived",
+    "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen + 1 Other",
     "image": "/images/p3-1.png",
+    "icon": 'fa fa-plane',
     "description": "To extend and complete the skeleton code of a flight booking system in Java using the object oriented programming paradigm.",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Features",
@@ -312,10 +314,11 @@ const projects = [
     "id": 4,
     "title": "CompClub Hub",
     "link": "/p4-compclub-hub",
-    "status": "archived",
+    "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen + 2 Others",
     "image": "/images/p4-1.png",
+    "icon": 'fa fa-trophy',
     "description": "To create a CRUD web application that retrieves, stores and edits data within a database.",
     "furtherDescription": [
       "A web application for creating, and managing clubs and club competitions, with the aid of a relational database, using the XAMPP stack."
@@ -411,10 +414,11 @@ const projects = [
     "id": 5,
     "title": "Spotify Themed Portfolio",
     "link": "/p5-spotify-themed-portfolio",
-    "status": "archived",
+    "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen",
     "image": "/images/p5-1.png",
+    "icon": 'fa fa-briefcase',
     "description": "Retrieving…",
     "furtherDescription": [
       "Retrieving…"
@@ -479,6 +483,7 @@ const projects = [
     "highlighted": false,
     "creators": "Imogen Dicen",
     "image": "",
+    "icon": 'fa fa-trophy',
     "description": "Retrieving…",
     "furtherDescription": [
       "Retrieving…"
@@ -522,12 +527,12 @@ const projects = [
     "id": 7,
     "title": "BMW Group Physical Asset Tracking System",
     "link": "/p7-bmw-group-physical-asset-tracking-system",
-    "status": "archived",
+    "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen + 5 Others",
     "image": "./images/p7-1.png",
+    "icon": 'fa fa-truck-ramp-box',
     "description": "To design software utilising existing CCTV camera streams, an API and a Digital Twin / Vehicle Management System to track logistics vehicles and distinguish them from each other.",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Our Solution Proposal",
@@ -592,12 +597,12 @@ const projects = [
     "id": 8,
     "title": "Mastermind Command-Line Game",
     "link": "/p8-mastermind",
-    "status": "archived",
+    "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen + 1 Other",
     "image": "./images/p8-1.png",
+    "icon": 'fa fa-chess-board',
     "description": "To create a small-scale prototype for the Mastermind game where it will take the form of an interactive command line program.",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Code",
@@ -664,6 +669,7 @@ const projects = [
     "status": "ongoing",
     "highlighted": false,
     "image": "",
+    "icon": 'fa fa-pen-to-square',
     "description": "To document the development of my skills and interests during summer after finishing my second year of university as a computer science student.",
     "furtherDescription": [
       "(Skills and interests include my love for drawing, clay sculpting, crocheting, and my interest in developing my knowledge in frontend and backend web development.)"
@@ -732,8 +738,8 @@ const projects = [
     "highlighted": false,
     "creators": "Imogen Dicen",
     "image": "",
+    "icon": 'fa fa-palette',
     "description": "To create a website to showcase my art universe.",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Retrieving...",
@@ -794,8 +800,8 @@ const projects = [
     "highlighted": false,
     "creators": "Imogen Dicen + 1 Other?",
     "image": "",
+    "icon": 'fa fa-memory',
     "description": "Retrieving…",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Retrieving...",
@@ -856,8 +862,8 @@ const projects = [
     "highlighted": false,
     "creators": "Imogen Dicen",
     "image": "",
+    "icon": 'fa fa-dice',
     "description": "To generate random song lyrics from the songs on Spotify to serve as art or writing prompts for creatives.",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Retrieving...",
@@ -912,8 +918,8 @@ const projects = [
     "highlighted": true,
     "creators": "Imogen Dicen",
     "image": "./images/p13-1.png",
+    "icon": 'fa fa-briefcase',
     "description": "To improve my almost pure HTML Spotify Themed Portfolio by using React to reduce all the redundant code.",
-    "furtherDescription": [],
     "tracks": [
       {
         "name": "Retrieving...",
