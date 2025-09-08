@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 const ArtistPopularSongs = ({ data }) => {
   return (
     <div className="mt-6">
       <p className="py-2 text-lg font-bold">{data.title}</p>
 
       {data.education.map(education => (
-        <a key={education.id} href={education.link} >
+        <Link key={education.id} to={education.link}>
           <div class="flex flex-row gap-3 mt-3 justify-start items-center">
             <div class="aspect-square w-20 flex">
               {education.image ? (
@@ -25,7 +27,7 @@ const ArtistPopularSongs = ({ data }) => {
               <p className="text-xs text-faded">{education.description}</p>
             </div>
           </div>
-        </a>
+        </Link>
       ))}
     </div>
   );

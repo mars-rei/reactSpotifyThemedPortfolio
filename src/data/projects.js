@@ -914,7 +914,7 @@ const projects = [
     "id": 13,
     "title": "Spotify Themed Portfolio in React",
     "link": "/p13-react-spotify-themed-portfolio",
-    "status": "ongoing",
+    "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen",
     "image": "./images/p13-1.png",
@@ -942,7 +942,7 @@ const projects = [
           {"name": "Duration", "icon": "fa fa-timeline", "text": "Aug 2025 - Now"},
           {"name": "Built For", "icon": "fa fa-user", "text": "Personal Development"},
           {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
-          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Complete (with known improvements)"}
         ],
         "projectLinks": [
           { 

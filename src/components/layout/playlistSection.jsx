@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import projects from "../../data/projects"
 import certifications from "../../data/certifications"
 
@@ -14,17 +16,17 @@ const PlaylistSection = ({ section }) => {
   } else if (section === "ongoingProjects") {
     elements = projects.filter(project => project.status === "ongoing").reverse().slice(0, 8);
     title = "Ongoing Projects";
-    viewAllLink = "/projects?filter=ongoing"
+    viewAllLink = "#/projects/ongoing"
 
   } else if (section === "archivedProjects") {
     elements = projects.filter(project => project.status === "complete").reverse().slice(0, 8);
     title = "Archived Projects";
-    viewAllLink = "/projects?filter=complete"
+    viewAllLink = "#/projects/complete"
 
   } else if (section === "topCertifications") {
     elements = certifications.slice(0,8);
     title = "Certifications";
-    viewAllLink = "/certifications"
+    viewAllLink = "#/certifications"
   }
 
   elements = elements.map((element, index) => {
@@ -56,33 +58,33 @@ const PlaylistSection = ({ section }) => {
       <div className="flex overflow-x-auto md:overflow-x-hidden scrollbar-hide -mx-4 md:-mx-0">
         <div className="flex md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8 -space-x-4 md:gap-x-5 md:space-x-0">
           {elements.map(element => (
-            <a 
-              key={element.id} 
-              href={element.link}
-              className={`
-                ${element.visibleMd === false ? 'md:hidden lg:block' : ''}
-                ${element.visibleLg === false ? 'md:hidden xl:block' : ''}
-                ${element.visibleXl === false ? 'md:hidden 2xl:block' : ''}
-              `}
-            >
-              <div className="rounded-lg flex-shrink-0 p-4 md:p-0 w-54 md:w-full">
-                <div className="w-full">
-                  {element.image ? (
-                    <img 
-                      src={element.image} 
-                      className="rounded-md" 
-                    />
-                  ) :  (
-                    <img 
-                      src="/images/blank.png" 
-                      className="rounded-md" 
-                    />
-                  )}
-                </div>
+            <Link key={element.id} to={element.link}>
+              <div
+                className={`
+                  ${element.visibleMd === false ? 'md:hidden lg:block' : ''}
+                  ${element.visibleLg === false ? 'md:hidden xl:block' : ''}
+                  ${element.visibleXl === false ? 'md:hidden 2xl:block' : ''}
+                `}
+              >
+                <div className="rounded-lg flex-shrink-0 p-4 md:p-0 w-54 md:w-full">
+                  <div className="w-full">
+                    {element.image ? (
+                      <img 
+                        src={element.image} 
+                        className="rounded-md" 
+                      />
+                    ) :  (
+                      <img 
+                        src="/images/blank.png" 
+                        className="rounded-md" 
+                      />
+                    )}
+                  </div>
 
-                <p className="mt-3 text-sm md:font-semibold">{element.title}</p>
+                  <p className="mt-3 text-sm md:font-semibold">{element.title}</p>
+                </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

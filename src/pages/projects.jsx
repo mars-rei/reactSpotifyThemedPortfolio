@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import TopBar from '../components/layout/topBar';
@@ -10,15 +10,27 @@ import MobileNav from '../components/layout/mobileNav';
 import projects from '../data/projects';
 
 const Projects = () => {
+  const { filter } = useParams();
+  const navigate = useNavigate();
   const [activeStatus, setActiveStatus] = useState(null);
   
   useEffect(() => {
-    const urlFilter = new URLSearchParams(window.location.search);
-    setActiveStatus(urlFilter.get('filter') || null);
-  }, []);
-
+    if (filter === 'complete' || filter === 'ongoing') {
+      setActiveStatus(filter);
+    } else {
+      setActiveStatus(null); 
+    }
+  }, [filter]);
+    
   const toggleStatus = (status) => {
-    setActiveStatus(activeStatus === status ? null : status);
+    const newStatus = activeStatus === status ? null : status;
+    setActiveStatus(newStatus);
+    
+    if (newStatus) {
+      navigate(`/projects/${newStatus}`);
+    } else {
+      navigate('/projects');
+    }
   };
 
   const filteredProjects = activeStatus 

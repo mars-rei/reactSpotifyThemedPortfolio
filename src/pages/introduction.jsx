@@ -77,7 +77,7 @@ const Introduction = () => {
 
             <div class="ml-4 mt-6 flex flex-row items-center gap-x-2">
             <img src="./images/headshot.jpeg" class="rounded-full w-6 h-6" />
-            <p class="text-sm text-faded">Last updated on 1st September</p>
+            <p class="text-sm text-faded">Last updated on 8th September</p>
             </div>
 
             <div class="ml-4 mt-4 text-sm">

@@ -24,7 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/introduction" element={<Introduction />} />
 
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:filter?" element={<Projects />} />
 
         <Route path="/certifications" element={<Certifications />} />
 

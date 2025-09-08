@@ -155,7 +155,7 @@ const IntroductionOverlay = () => {
 
                 <div className="mt-6 flex flex-row items-center gap-x-2">
                   <img src="/images/headshot.jpeg" className="rounded-full w-6 h-6" />
-                  <p className="text-md text-gray-400">Last updated on 1st September</p>
+                  <p className="text-md text-gray-400">Last updated on 8th September</p>
                 </div>
               </div>
             </div>
@@ -277,28 +277,27 @@ const About = () => {
                         <div class="mt-6 pb-2 md:hidden">
                           <div class="py-2 text-lg font-bold">About</div>
 
-                          <a href="introduction.html">
-                            <div class="relative w-full">
-                              <img src="./images/headshot.jpeg" class="w-full aspect-square object-cover rounded-xl" />
-                              
-                              <div class="absolute bottom-0 left-0 right-0 h-3/10 bg-[#282828] rounded-b-xl"></div>
+                          <div class="relative w-full">
+                            <img src="./images/headshot.jpeg" class="w-full aspect-square object-cover rounded-xl" />
+                            
+                            <div class="absolute bottom-0 left-0 right-0 h-3/10 bg-[#282828] rounded-b-xl"></div>
 
-                              <div class="flex w-full p-4 absolute bottom-0 left-0">
-                                <div class="flex-1">
-                                  <p class="text-xs">3rd Year Student</p>
-                                  <p class="text-lg font-semibold">Imogen Dicen</p>
-                                  <p class="text-xs font-normal text-faded">340 connections</p>
-                                  <div class="flex items-center justify-between mt-4">  
-                                    <p class="text-xs font-normal text-faded">
-                                      I'm Imogen, but you can call me Mars! A final year Computer Science student 
-                                      interested in UX/UI design, full-stack development, and data ...
-                                      <span className='font-semibold text-white'> see more</span>
-                                    </p>
-                                  </div>
+                            <div class="flex w-full p-4 absolute bottom-0 left-0">
+                              <div class="flex-1">
+                                <p class="text-xs">3rd Year Student</p>
+                                <p class="text-lg font-semibold">Imogen Dicen</p>
+                                <p class="text-xs font-normal text-faded">340 connections</p>
+                                <div class="flex items-center justify-between mt-4">  
+                                  <p class="text-xs font-normal text-faded">
+                                    I'm Imogen, but you can call me Mars! A final year Computer Science student 
+                                    interested in UX/UI design, full-stack development, and data ...
+                                    <span className='font-semibold text-white'> see more</span>
+                                  </p>
                                 </div>
                               </div>
                             </div>
-                          </a>
+                          </div>
+                          
                         </div>
                       </Link>
 
