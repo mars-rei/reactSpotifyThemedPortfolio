@@ -6,7 +6,7 @@ const projects = [
     "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen",
-    "image": "/images/p1-1.png",
+    "image": "./images/p1-1.png",
     "icon": 'fa fa-chess',
     "description": "To create a platform that would aid my school’s Chess Club to host tournaments and train the members within it.",
     "furtherDescription": [
@@ -89,7 +89,7 @@ const projects = [
     "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen + 4 Others",
-    "image": "/images/p2-1.jpg",
+    "image": "./images/p2-1.jpg",
     "icon": 'fa fa-robot',
     "description": "To create a project using both hardware and software, to meet multiple UN sustainability goals.",
     "furtherDescription": [
@@ -246,7 +246,7 @@ const projects = [
     "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen + 1 Other",
-    "image": "/images/p3-1.png",
+    "image": "./images/p3-1.png",
     "icon": 'fa fa-plane',
     "description": "To extend and complete the skeleton code of a flight booking system in Java using the object oriented programming paradigm.",
     "tracks": [
@@ -317,7 +317,7 @@ const projects = [
     "status": "complete",
     "highlighted": false,
     "creators": "Imogen Dicen + 2 Others",
-    "image": "/images/p4-1.png",
+    "image": "./images/p4-1.png",
     "icon": 'fa fa-trophy',
     "description": "To create a CRUD web application that retrieves, stores and edits data within a database.",
     "furtherDescription": [
@@ -417,7 +417,7 @@ const projects = [
     "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen",
-    "image": "/images/p5-1.png",
+    "image": "./images/p5-1.png",
     "icon": 'fa fa-briefcase',
     "description": "Retrieving…",
     "furtherDescription": [

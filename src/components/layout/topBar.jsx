@@ -28,7 +28,7 @@ const TopBar = () => {
         </Link>
     
         <div class="rounded-full bg-[#282828] h-12 w-12 flex items-center justify-center">
-          <img src="/images/headshot.jpeg" class="rounded-full h-8 w-8" alt="Profile" />
+          <img src="./images/headshot.jpeg" class="rounded-full h-8 w-8"/>
         </div>
       </div>
     </div>

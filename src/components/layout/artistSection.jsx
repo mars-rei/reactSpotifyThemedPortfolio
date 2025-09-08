@@ -27,7 +27,7 @@ const ArtistSection = ({ data }) => {
                       />
                     ) : (
                       <img 
-                        src="/images/blank.png" 
+                        src="./images/blank.png" 
                         className="rounded-full" 
                       />
                     )}

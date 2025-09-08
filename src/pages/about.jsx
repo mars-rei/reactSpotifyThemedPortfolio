@@ -39,7 +39,7 @@ const IntroductionOverlay = () => {
       <div className="py-2 text-2xl font-bold">About</div>
 
       <div className="relative lg:w-200 w-153 mt-3 cursor-pointer" onClick={openIntro}>
-        <img src="/images/fullHeadshot.jpg" className="w-full object-cover rounded-md" />
+        <img src="./images/fullHeadshot.jpg" className="w-full object-cover rounded-md" />
         
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/100 to-transparent rounded-md"></div>
 
@@ -62,7 +62,7 @@ const IntroductionOverlay = () => {
         >
           <div className="bg-[#121212] rounded-md w-180 h-150 overflow-y-scroll m-5 scrollbar-hide">
             <div className="bg-black flex justify-center px-20">
-              <img src="/images/fullHeadshot.jpg" />
+              <img src="./images/fullHeadshot.jpg" />
             </div>
             
             <div className="m-5 flex flex-row">
@@ -154,7 +154,7 @@ const IntroductionOverlay = () => {
                 </ul>
 
                 <div className="mt-6 flex flex-row items-center gap-x-2">
-                  <img src="/images/headshot.jpeg" className="rounded-full w-6 h-6" />
+                  <img src="./images/headshot.jpeg" className="rounded-full w-6 h-6" />
                   <p className="text-md text-gray-400">Last updated on 8th September</p>
                 </div>
               </div>

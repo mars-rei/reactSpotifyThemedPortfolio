@@ -16,7 +16,7 @@ const ArtistPopularSongs = ({ data }) => {
                 />
               ) : (
                 <img 
-                  src="/images/blank.png" 
+                  src="./images/blank.png" 
                   className="rounded-md" 
                 />
               )}

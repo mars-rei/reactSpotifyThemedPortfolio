@@ -75,7 +75,7 @@ const PlaylistSection = ({ section }) => {
                       />
                     ) :  (
                       <img 
-                        src="/images/blank.png" 
+                        src="./images/blank.png" 
                         className="rounded-md" 
                       />
                     )}

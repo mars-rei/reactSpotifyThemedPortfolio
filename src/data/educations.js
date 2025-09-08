@@ -6,7 +6,7 @@ const educations = {
       "id": 1,
       "title": "Birmingham City University",
       "link": "/e2-bcu",
-      "image": "/images/e2-1.jpg",
+      "image": "./images/e2-1.jpg",
       "description": "BSc Computer Science (with Honours).",
       "duration": "From 2023 - Now",
       "details": [
@@ -197,7 +197,7 @@ const educations = {
       "id": 5,
       "title": "King Edward VI Handsworth",
       "link": "/e1-kevihs",
-      "image": "/images/e1-1.jpg",
+      "image": "./images/e1-1.jpg",
       "description": "GCSEs & A-Levels.",
       "duration": "From 2016 - 2023",
       "visibleLg": false,
