@@ -965,6 +965,47 @@ const projects = [
         ]
       }
     ]
+  },
+  
+  {
+    "id": 14,
+    "title": "Spotify Themed Playlist Player",
+    "link": "/p14-spotify-themed-playlist-player",
+    "status": "ongoing",
+    "highlighted": false,
+    "creators": "Imogen Dicen",
+    "image": "",
+    "icon": 'fa fa-file-audio',
+    "description": "To create a website that can play my music covers, preferably Spotify themed again.",
+    "tracks": [
+      {
+        "name": "Retrieving...",
+        "type": "text",
+        "description": "Retrieving..."
+      }
+    ],
+    "skills": [],
+    "details": [
+      {
+        "title": "Project 14",
+        "subtitle": "Spotify Themed Portfolio in React",
+        "author": "Imogen Dicen",
+        "backgroundImage": "",
+        "nonProjectLinks": [
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Aug 2025 - Now"},
+          {"name": "Built For", "icon": "fa fa-user", "text": "Personal Development"},
+          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+        ],
+        "projectLinks": [],
+        "technologiesUsed": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ],
+        "technologiesLearnt": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ]
+      }
+    ]
   }
 ];
 
