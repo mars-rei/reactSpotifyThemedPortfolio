@@ -113,6 +113,11 @@ const pageData = {
     icon: 'fa fa-briefcase',
     song: 'Spotify Themed Portfolio in React',
     artist:'Project'
+  },
+  '/p14-spotify-themed-playlist-player': {
+    icon: 'fa fa-file-audio',
+    song: 'Spotify Themed Playlist Player',
+    artist:'Project'
   }
 };
 

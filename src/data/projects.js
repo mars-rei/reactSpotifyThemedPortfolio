@@ -988,7 +988,7 @@ const projects = [
     "details": [
       {
         "title": "Project 14",
-        "subtitle": "Spotify Themed Portfolio in React",
+        "subtitle": "Spotify Themed Playlist Player",
         "author": "Imogen Dicen",
         "backgroundImage": "",
         "nonProjectLinks": [

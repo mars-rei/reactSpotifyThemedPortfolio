@@ -49,6 +49,7 @@ function App() {
         <Route path="/p11-pinterest-themed-digital-scrapbook" element={<Project project="/p11-pinterest-themed-digital-scrapbook"/>} />
         <Route path="/p12-random-lyric-generator" element={<Project project="/p12-random-lyric-generator"/>} />
         <Route path="/p13-react-spotify-themed-portfolio" element={<Project project="/p13-react-spotify-themed-portfolio"/>} />
+        <Route path="/p14-spotify-themed-playlist-player" element={<Project project="/p14-spotify-themed-playlist-player"/>} />
 
       </Routes>
     </Router>
