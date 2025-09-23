@@ -12,7 +12,7 @@ const Profile = () => {
           <p class="text-sm">
             <span class="font-semibold">3rd Year</span>
             <span class="text-faded"> Computer Science Student • </span>
-            <span class="font-semibold">6</span>
+            <span class="font-semibold">5</span>
             <span class="text-faded"> Ongoing Projects</span>
           </p>
         </div>
