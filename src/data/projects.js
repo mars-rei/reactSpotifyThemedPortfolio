@@ -666,7 +666,7 @@ const projects = [
     "title": "Summer of '25 Blog",
     "link": "/p9-summer-of-25-blog",
     "creators": "Imogen Dicen",
-    "status": "ongoing",
+    "status": "complete",
     "highlighted": false,
     "image": "",
     "icon": 'fa fa-pen-to-square',

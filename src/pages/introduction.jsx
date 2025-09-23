@@ -48,10 +48,10 @@ const Introduction = () => {
 
             <ul class="list-disc ml-6 mr-2">
                 <li>
-                    Spotify Themed Portfolio
+                    React Spotify Themed Portfolio
                 </li>
                 <li>
-                    Summer of '25 Blog
+                    Spotify Themed Portfolio
                 </li>
                 <li>
                     CompClub Hub 2.0
@@ -77,7 +77,7 @@ const Introduction = () => {
 
             <div class="ml-4 mt-6 flex flex-row items-center gap-x-2">
             <img src="./images/headshot.jpeg" class="rounded-full w-6 h-6" />
-            <p class="text-sm text-faded">Last updated on 9th September</p>
+            <p class="text-sm text-faded">Last updated on 23rd September</p>
             </div>
 
             <div class="ml-4 mt-4 text-sm">
