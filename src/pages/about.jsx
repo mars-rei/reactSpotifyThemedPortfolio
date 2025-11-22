@@ -45,10 +45,10 @@ const IntroductionOverlay = () => {
 
         <div className="flex w-full p-4 absolute bottom-0 left-0">
           <div className="flex-1 mb-8 ml-8 lg:mr-60 md:mr-40">
-            <p className="text-md font-semibold pb-2">345 connections</p>
+            <p className="text-md font-semibold pb-2">399 connections</p>
             <p className="text-md font-normal flex-1">
               I'm Imogen, but you can call me Mars! A final year Computer Science student 
-              interested in UX/UI design, full-stack development, and data engineering.
+              interested in UX/UI design, front-end development, and data engineering.
             </p>
           </div>
         </div>
@@ -109,8 +109,8 @@ const IntroductionOverlay = () => {
                 </p>
 
                 <p>
-                  I'm Imogen, but you can call me Mars! I'm a second year Computer Science student with 
-                  current interests in UX/UI design, full-stack web development and data engineering.
+                  I'm Imogen, but you can call me Mars! I'm a third year Computer Science student with 
+                  current interests in UX/UI design, front-end development and data engineering. 
                 </p>
 
                 <p>
@@ -120,20 +120,22 @@ const IntroductionOverlay = () => {
                 </p>
 
                 <p>
-                  Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on the 
-                  three projects I believe will help me grow both technically and creatively as a software 
-                  engineer (see the Projects section for more information):
+                  Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on 
+                  these three uni projects (see the Projects section of my profile for more information):
                 </p>
 
                 <ul className="list-disc ml-6 mr-2">
                   <li>
-                    React Spotify Themed Portfolio
+                    My final year project ~ Portfoliohub: A portfolio website builder web application for 
+                    creatives (excluding generative AI components)
                   </li>
                   <li>
-                    Spotify Themed Portfolio
+                    The Green Room ~ user experience design for a mobile application to link musicians 
+                    and local venues in the West Midlands 
                   </li>
                   <li>
-                    CompClub Hub 2.0
+                    Developing a predictive model to classify whether a song will be highly or less 
+                    popular based on Spotify data
                   </li>
                 </ul>
 
@@ -155,7 +157,7 @@ const IntroductionOverlay = () => {
 
                 <div className="mt-6 flex flex-row items-center gap-x-2">
                   <img src="./images/headshot.jpeg" className="rounded-full w-6 h-6" />
-                  <p className="text-md text-gray-400">Last updated on 23rd September</p>
+                  <p className="text-md text-gray-400">Last updated on 22nd November '25</p>
                 </div>
               </div>
             </div>
@@ -227,7 +229,7 @@ const About = () => {
                     </div>
                     
                     <div class="mt-3 p-4 md:p-0 md:px-5 bg-[#121212]">
-                      <p class="text-xs md:text-sm text-faded md:text-white md:font-normal">345 connections</p>
+                      <p class="text-xs md:text-sm text-faded md:text-white md:font-normal">399 connections</p>
 
                       <div>
                         <div class="mt-4 py-2 text-lg md:text-2xl font-bold">Areas of Interest</div>
@@ -235,6 +237,19 @@ const About = () => {
                         <div class="flex flex-row items-center gap-3 mt-3 md:ml-5">
                           <div class="font-normal text-xs md:text-sm md:text-faded">
                             1
+                          </div>
+                          <div class="bg-[#535353] aspect-square rounded-md w-12 flex justify-center items-center">
+                            <span class="fa fa-users-gear fa-2x text-[#121212]"></span>
+                          </div>
+                          <div>
+                            <p class="font-normal text-md">UX/UI</p>
+                            <p class="text-xs md:text-sm text-faded">User research and prototyping.</p>
+                          </div>
+                        </div>
+
+                        <div class="flex flex-row items-center gap-3 mt-3 md:mt-5 md:ml-5">
+                          <div class="font-normal text-xs md:text-sm md:text-faded">
+                            2
                           </div>
                           <div class="bg-[#535353] aspect-square rounded-md w-12 flex justify-center items-center">
                             <span class="fa fa-code fa-2x text-[#121212]"></span>
@@ -247,7 +262,7 @@ const About = () => {
 
                         <div class="flex flex-row items-center gap-3 mt-3 md:mt-5 md:ml-5">
                           <div class="font-normal text-xs md:text-sm md:text-faded">
-                            2
+                            3
                           </div>
                           <div class="bg-[#535353] aspect-square rounded-md w-12 flex justify-center items-center">
                             <span class="fa fa-database fa-2x text-[#121212]"></span>
@@ -290,7 +305,7 @@ const About = () => {
                                 <div class="flex items-center justify-between mt-4">  
                                   <p class="text-xs font-normal text-faded">
                                     I'm Imogen, but you can call me Mars! A final year Computer Science student 
-                                    interested in UX/UI design, full-stack development, and data ...
+                                    interested in UX/UI design, front-end development, and data ...
                                     <span className='font-semibold text-white'> see more</span>
                                   </p>
                                 </div>

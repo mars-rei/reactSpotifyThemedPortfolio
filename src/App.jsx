@@ -50,6 +50,9 @@ function App() {
         <Route path="/p12-random-lyric-generator" element={<Project project="/p12-random-lyric-generator"/>} />
         <Route path="/p13-react-spotify-themed-portfolio" element={<Project project="/p13-react-spotify-themed-portfolio"/>} />
         <Route path="/p14-spotify-themed-playlist-player" element={<Project project="/p14-spotify-themed-playlist-player"/>} />
+        <Route path="/p15-portfoliohub" element={<Project project="/p15-portfoliohub"/>} />
+        <Route path="/p16-the-green-room" element={<Project project="/p16-the-green-room"/>} />
+        <Route path="/p17-predictive-modelling-song-popularity" element={<Project project="/p17-predictive-modelling-song-popularity"/>} />
 
       </Routes>
     </Router>

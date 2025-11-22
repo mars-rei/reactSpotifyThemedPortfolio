@@ -798,7 +798,7 @@ const projects = [
     "link": "/p11-pinterest-themed-digital-scrapbook",
     "status": "ongoing",
     "highlighted": false,
-    "creators": "Imogen Dicen + 1 Other?",
+    "creators": "Imogen Dicen + 3 Others",
     "image": "",
     "icon": 'fa fa-memory',
     "description": "Retrieving…",
@@ -816,16 +816,16 @@ const projects = [
       {
         "title": "Project 11",
         "subtitle": "Pinterest Themed Digital Scrapbook",
-        "author": "Imogen Dicen + 1?",
+        "author": "Imogen Dicen + 3",
         "backgroundImage": "",
         "nonProjectLinks": [
           {"name": "Duration", "icon": "fa fa-timeline", "text": "Jun 2025 - Now"},
           {"name": "Built For", "icon": "fa fa-user", "text": "Personal Development"},
-          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Group (of retrieving...)"},
-          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Group (of 4)"},
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "On Hiatus"}
         ],
         "projectLinks": [
-          { 
+          /*{ 
             "platform": "Figma", 
             "text": "Retrieving...", 
             "url": "",
@@ -842,7 +842,7 @@ const projects = [
             "text": "Retrieving...", 
             "url": "",
             "icon": "fa fa-link"
-          }
+          }*/
         ],
         "technologiesUsed": [
           { "tech": "Retrieving...", "icon": "fa fa-question" }
@@ -984,20 +984,167 @@ const projects = [
         "description": "Retrieving..."
       }
     ],
-    "skills": [],
+    "skills": [
+      "Retrieving..."
+    ],
     "details": [
       {
         "title": "Project 14",
-        "subtitle": "Spotify Themed Playlist Player",
+        "subtitle": "Spotify Themed Music Player",
         "author": "Imogen Dicen",
         "backgroundImage": "",
         "nonProjectLinks": [
           {"name": "Duration", "icon": "fa fa-timeline", "text": "Aug 2025 - Now"},
           {"name": "Built For", "icon": "fa fa-user", "text": "Personal Development"},
           {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "On Hiatus"}
+        ],
+        "projectLinks": [
+          { 
+            "platform": "GitHub", 
+            "text": "Link to Spotify Themed Music Player", 
+            "url": "https://github.com/mars-rei/spotifyThemedMusicPlayer",
+            "icon": "fa-brands fa-github"
+          },
+          { 
+            "platform": "Website", 
+            "text": "Link to Spotify Themed Music Player", 
+            "url": "https://mars-rei.github.io/spotifyThemedMusicPlayer/",
+            "icon": "fa fa-link"
+          }
+        ],
+        "technologiesUsed": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ],
+        "technologiesLearnt": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "PortfolioHub",
+    "link": "/p15-portfoliohub",
+    "status": "ongoing",
+    "highlighted": true,
+    "creators": "Imogen Dicen",
+    "image": "",
+    "icon": 'fa fa-industry',
+    "description": "To design and implement a portfolio website builder web application for creatives (excluding generative AI).",
+    "tracks": [
+      {
+        "name": "Retrieving...",
+        "type": "text",
+        "description": "Retrieving..."
+      }
+    ],
+    "skills": [
+      "Retrieving..."
+    ],
+    "details": [
+      {
+        "title": "Project 15",
+        "subtitle": "PortfolioHub",
+        "author": "Imogen Dicen",
+        "backgroundImage": "",
+        "nonProjectLinks": [
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep 2025 - Now"},
+          {"name": "Built For", "icon": "fa fa-user", "text": "Final Year Project"},
+          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
           {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
         ],
-        "projectLinks": [],
+        "projectLinks": [
+
+        ],
+        "technologiesUsed": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ],
+        "technologiesLearnt": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "The Green Room",
+    "link": "/p16-the-green-room",
+    "status": "ongoing",
+    "highlighted": true,
+    "creators": "Imogen Dicen",
+    "image": "",
+    "icon": 'fa fa-map-location',
+    "description": "Retrieving...",
+    "tracks": [
+      {
+        "name": "Retrieving...",
+        "type": "text",
+        "description": "Retrieving..."
+      }
+    ],
+    "skills": [
+      "Retrieving..."
+    ],
+    "details": [
+      {
+        "title": "Project 16",
+        "subtitle": "The Green Room",
+        "author": "Imogen Dicen",
+        "backgroundImage": "",
+        "nonProjectLinks": [
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep 2025 - Now"},
+          {"name": "Built For", "icon": "fa fa-user", "text": "User Experience Design"},
+          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+        ],
+        "projectLinks": [
+
+        ],
+        "technologiesUsed": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ],
+        "technologiesLearnt": [
+          { "tech": "Retrieving...", "icon": "fa fa-question" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Predictive Modelling of a Song's Popularity",
+    "link": "/p17-predictive-modelling-song-popularity",
+    "status": "ongoing",
+    "highlighted": true,
+    "creators": "Imogen Dicen",
+    "image": "",
+    "icon": 'fa fa-chart-line',
+    "description": "To document the process of creating a machine learning model to predict a song's popularity.",
+    "tracks": [
+      {
+        "name": "Retrieving...",
+        "type": "text",
+        "description": "Retrieving..."
+      }
+    ],
+    "skills": [
+      "Retrieving..."
+    ],
+    "details": [
+      {
+        "title": "Project 17",
+        "subtitle": "Predictive Modelling of a Song's Popularity",
+        "author": "Imogen Dicen",
+        "backgroundImage": "",
+        "nonProjectLinks": [
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep 2025 - Now"},
+          {"name": "Built For", "icon": "fa fa-user", "text": "Artificial Intelligence and Machine Learning"},
+          {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+        ],
+        "projectLinks": [
+
+        ],
         "technologiesUsed": [
           { "tech": "Retrieving...", "icon": "fa fa-question" }
         ],

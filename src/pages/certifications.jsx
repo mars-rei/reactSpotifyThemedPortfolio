@@ -112,7 +112,7 @@ const Certifications = () => {
                       <p class="text-5xl lg:text-6xl font-bold">My Certifications</p>
                     </div>
                     <div class="flex mt-4">
-                      <p class="text-sm text-faded">All formal certifications and badges and certificates of acknowledgement as of August 2025.</p>
+                      <p class="text-sm text-faded">All formal certifications and badges and certificates of acknowledgement as of November 2025.</p>
                     </div>
                     <div class="mt-2 flex flex-row items-center space-x-2">
                       <img src="./images/headshot.jpeg" class="w-6 rounded-full" />

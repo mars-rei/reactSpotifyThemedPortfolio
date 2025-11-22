@@ -1,6 +1,6 @@
 const educations = {
   "title": "Education",
-  "date": "August 2025",
+  "date": "November 2025",
   "education": [
     {
       "id": 1,
@@ -58,23 +58,27 @@ const educations = {
             {
               "title": "Final Year Project",
               "items": [
-                { "num": 1, "name": "?", "icon": "fa fa-question", "grade": "?" }
+                { 
+                  "num": 1, 
+                  "name": "PortfolioHub: The design and implementation of a portfolio website builder web application for creatives", 
+                  "icon": "fa fa-graduation-cap"/*, 
+                  "grade": "?" */}
               ]
             },
             {
               "title": "1st Semester",
               "items": [
-                { "num": 1, "name": "?", "icon": "fa fa-question", "grade": "?" },
-                { "num": 2, "name": "?", "icon": "fa fa-question", "grade": "?" }
+                { "num": 1, "name": "Artificial Intelligence and Machine Learning", "icon": "fa fa-brain"/*, "grade": "?"*/ },
+                { "num": 2, "name": "User Experience Design", "icon": "fa fa-users-gear"/*, "grade": "?" */}
               ]
-            },
-            {
+            }//,
+            /*{
               "title": "2nd Semester",
               "items": [
                 { "num": 1, "name": "?", "icon": "fa fa-question", "grade": "?" },
                 { "num": 2, "name": "?", "icon": "fa fa-question", "grade": "?" }
               ]
-            }
+            }*/
           ]
         }
       ]

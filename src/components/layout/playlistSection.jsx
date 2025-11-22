@@ -43,7 +43,7 @@ const PlaylistSection = ({ section }) => {
     return elementWithVisibility;
   });
 
-  const date = "August 2025";
+  const date = "November 2025";
 
   return (
     <div className="my-8">

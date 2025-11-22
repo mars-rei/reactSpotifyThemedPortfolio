@@ -42,7 +42,7 @@ const Home = () => {
                     <div class="my-8">
                       <p class="text-lg md:text-2xl font-bold">About Me</p>
                       <p class="mt-2 mb-4 text-sm">
-                        Hi, my name is Imogen, but you can call me Mars! I'm interested in web development, full-stack development, and data engineering.
+                        Hi, my name is Imogen, but you can call me Mars! I'm interested in UX/UI, front-end development, and data engineering.
                       </p>
                     </div>
 

@@ -30,8 +30,8 @@ const Introduction = () => {
             </p>
 
             <p>
-                I'm Imogen, but you can call me Mars! I'm a second year Computer Science student with 
-                current interests in UX/UI design, full-stack web development and data engineering.
+                I'm Imogen, but you can call me Mars! I'm a third year Computer Science student with 
+                current interests in UX/UI design, front-end development and data engineering.
             </p>
 
             <p>
@@ -41,20 +41,22 @@ const Introduction = () => {
             </p>
 
             <p>
-                Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on the 
-                three projects I believe will help me grow both technically and creatively as a software 
-                engineer (see the Projects section for more information):
+                Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on 
+                these three uni projects (see the Projects section of my profile for more information):
             </p>
 
             <ul class="list-disc ml-6 mr-2">
                 <li>
-                    React Spotify Themed Portfolio
+                    My final year project ~ Portfoliohub: A portfolio website builder web application for 
+                    creatives (excluding generative AI components)
                 </li>
                 <li>
-                    Spotify Themed Portfolio
+                    The Green Room ~ user experience design for a mobile application to link musicians 
+                    and local venues in the West Midlands 
                 </li>
                 <li>
-                    CompClub Hub 2.0
+                    Developing a predictive model to classify whether a song will be highly or less 
+                    popular based on Spotify data
                 </li>
             </ul>
 
@@ -77,7 +79,7 @@ const Introduction = () => {
 
             <div class="ml-4 mt-6 flex flex-row items-center gap-x-2">
             <img src="./images/headshot.jpeg" class="rounded-full w-6 h-6" />
-            <p class="text-sm text-faded">Last updated on 23rd September</p>
+            <p class="text-sm text-faded">Last updated on 22nd November '25</p>
             </div>
 
             <div class="ml-4 mt-4 text-sm">
