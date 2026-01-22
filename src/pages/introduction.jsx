@@ -42,21 +42,13 @@ const Introduction = () => {
 
             <p>
                 Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on 
-                these three uni projects (see the Projects section of my profile for more information):
+                my final year project (see the Projects section of my profile for more information):
             </p>
 
             <ul class="list-disc ml-6 mr-2">
                 <li>
-                    My final year project ~ Portfoliohub: A portfolio website builder web application for 
+                    Portfoliohub: A portfolio website builder web application for 
                     creatives (excluding generative AI components)
-                </li>
-                <li>
-                    The Green Room ~ user experience design for a mobile application to link musicians 
-                    and local venues in the West Midlands 
-                </li>
-                <li>
-                    Developing a predictive model to classify whether a song will be highly or less 
-                    popular based on Spotify data
                 </li>
             </ul>
 
@@ -79,7 +71,7 @@ const Introduction = () => {
 
             <div class="ml-4 mt-6 flex flex-row items-center gap-x-2">
             <img src="./images/headshot.jpeg" class="rounded-full w-6 h-6" />
-            <p class="text-sm text-faded">Last updated on 22nd November '25</p>
+            <p class="text-sm text-faded">Last updated on 22nd January '26</p>
             </div>
 
             <div class="ml-4 mt-4 text-sm">
@@ -108,13 +100,6 @@ const Introduction = () => {
                 <div class="flex items-center space-x-3 mt-3">
                 <span class="fa fa-magnifying-glass-chart fa-lg w-6"></span>
                 <p class="font-bold">DataCamp</p>
-                </div>
-            </a>
-
-            <a href="https://reminiscent-flannel-fe7.notion.site/my-projects-0cd061a938b0467d98cb56019a970f6d?source=copy_link">
-                <div class="flex items-center space-x-3 mt-3">
-                <span class="fa fa-briefcase fa-lg w-6"></span>
-                <p class="font-bold">Backup Project Portfolio</p>
                 </div>
             </a>
             </div>

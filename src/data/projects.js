@@ -668,7 +668,7 @@ const projects = [
     "creators": "Imogen Dicen",
     "status": "complete",
     "highlighted": false,
-    "image": "",
+    "image": "./images/p9-1.png",
     "icon": 'fa fa-pen-to-square',
     "description": "To document the development of my skills and interests during summer after finishing my second year of university as a computer science student.",
     "furtherDescription": [
@@ -676,9 +676,9 @@ const projects = [
     ],
     "tracks": [
       {
-        "name": "Retrieving...",
+        "name": "Retrieving Feb '26...",
         "type": "text",
-        "description": "Retrieving..."
+        "description": "Retrieving Feb '26..."
       }
     ],
     "skills": [
@@ -689,7 +689,7 @@ const projects = [
         "title": "Project 9",
         "subtitle": "Summer of '25 Blog",
         "author": "Imogen Dicen",
-        "backgroundImage": "",
+        "backgroundImage": "./images/p9-1.png",
         "nonProjectLinks": [
           {"name": "Duration", "icon": "fa fa-timeline", "text": "May 2025 - Now"},
           {"name": "Built For", "icon": "fa fa-user", "text": "Personal Development"},
@@ -1029,25 +1029,75 @@ const projects = [
     "status": "ongoing",
     "highlighted": true,
     "creators": "Imogen Dicen",
-    "image": "",
+    "image": "./images/p15-1.png",
     "icon": 'fa fa-industry',
     "description": "To design and implement a portfolio website builder web application for creatives (excluding generative AI).",
     "tracks": [
       {
-        "name": "Retrieving...",
+        "name": "Project Declaration",
         "type": "text",
-        "description": "Retrieving..."
+        "description": "Retrieving Aug '26..."
+      },
+      {
+        "name": "Ethics Forms",
+        "type": "text",
+        "description": "Retrieving Aug '26..."
+      },
+      {
+        "name": "Interim Project Report",
+        "type": "text",
+        "description": "Retrieving Aug '26..."
+      },
+      {
+        "name": "Initial Research Survey",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Interim Project Review",
+        "type": "text",
+        "description": "Retrieving Aug '26..."
+      },
+      {
+        "name": "Completed UI/UX Research",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Lo-fi",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Hi-fi",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Completed Analysis on Initial Research Survey",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Database Design",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Design Specifications",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
       }
     ],
     "skills": [
-      "Retrieving..."
+      "Retrieving Aug '26..."
     ],
     "details": [
       {
         "title": "Project 15",
         "subtitle": "PortfolioHub",
         "author": "Imogen Dicen",
-        "backgroundImage": "",
+        "backgroundImage": "./images/p15-1.png",
         "nonProjectLinks": [
           {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep 2025 - Now"},
           {"name": "Built For", "icon": "fa fa-user", "text": "Final Year Project"},
@@ -1055,13 +1105,23 @@ const projects = [
           {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
         ],
         "projectLinks": [
-
+          { 
+            "platform": "GitHub", 
+            "text": "Link to PortfolioHub", 
+            "url": "https://github.com/mars-rei/portfoliohub",
+            "icon": "fa-brands fa-github"
+          }
         ],
         "technologiesUsed": [
-          { "tech": "Retrieving...", "icon": "fa fa-question" }
+          { "tech": "Figma", "icon": "fa-brands fa-figma" },
+          { "tech": "PostgreSQL", "icon": "fa fa-database" },
+          { "tech": "React", "icon": "fa-brands fa-react" },
+          { "tech": "tailwindCSS", "icon": "fa fa-code" },
+          { "tech": "PHP", "icon": "fa-brands fa-php" }
         ],
         "technologiesLearnt": [
-          { "tech": "Retrieving...", "icon": "fa fa-question" }
+          { "tech": "Laravel", "icon": "fa-brands fa-php" },
+          { "tech": "Cloudinary", "icon": "fa fa-cloud-arrow-up" }
         ]
       }
     ]
@@ -1070,42 +1130,83 @@ const projects = [
     "id": 16,
     "title": "The Green Room",
     "link": "/p16-the-green-room",
-    "status": "ongoing",
+    "status": "complete",
     "highlighted": true,
     "creators": "Imogen Dicen",
-    "image": "",
+    "image": "./images/p16-1.png",
     "icon": 'fa fa-map-location',
-    "description": "Retrieving...",
+    "description": "To design user experience for a mobile application to link musicians and local venues in the West Midlands.",
     "tracks": [
       {
-        "name": "Retrieving...",
+        "name": "Research into users and background",
         "type": "text",
-        "description": "Retrieving..."
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "User Personas, Jobs-to-be-Done, User Scenarios, and MoSCoW",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Lo-fi",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Hi-fi",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Usability Testing",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Improvements",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Usability Testing Report",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
       }
     ],
     "skills": [
-      "Retrieving..."
+      "Retrieving Feb '26..."
     ],
     "details": [
       {
         "title": "Project 16",
         "subtitle": "The Green Room",
         "author": "Imogen Dicen",
-        "backgroundImage": "",
+        "backgroundImage": "./images/p16-1.png",
         "nonProjectLinks": [
-          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep 2025 - Now"},
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep - Dec 2025"},
           {"name": "Built For", "icon": "fa fa-user", "text": "User Experience Design"},
           {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
-          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Complete"}
         ],
         "projectLinks": [
-
+          { 
+            "platform": "Figma", 
+            "text": "Link to prototyping process", 
+            "url": "https://www.figma.com/design/N7vOPJxmmbzSXOfgq1HXiq/cmp6214-user-experience-design?node-id=0-1&t=onXR0dx3g9rxNehS-1",
+            "icon": "fa-brands fa-figma"
+          },
+          { 
+            "platform": "Figma", 
+            "text": "Link to screens used in Maze testing", 
+            "url": "https://www.figma.com/design/C3ljCyFDw3XwNboqu4cgD1/cmp6214-maze?node-id=0-1&t=CBP7XLiznZd5aUCd-1",
+            "icon": "fa-brands fa-figma"
+          }
         ],
         "technologiesUsed": [
-          { "tech": "Retrieving...", "icon": "fa fa-question" }
+          { "tech": "Figma", "icon": "fa-brands fa-figma" }
         ],
         "technologiesLearnt": [
-          { "tech": "Retrieving...", "icon": "fa fa-question" }
+          { "tech": "Maze", "icon": "fa fa-clipboard-question" }
         ]
       }
     ]
@@ -1114,42 +1215,83 @@ const projects = [
     "id": 17,
     "title": "Predictive Modelling of a Song's Popularity",
     "link": "/p17-predictive-modelling-song-popularity",
-    "status": "ongoing",
-    "highlighted": true,
+    "status": "complete",
+    "highlighted": false,
     "creators": "Imogen Dicen",
-    "image": "",
+    "image": "./images/p17-1.png",
     "icon": 'fa fa-chart-line',
     "description": "To document the process of creating a machine learning model to predict a song's popularity.",
     "tracks": [
       {
-        "name": "Retrieving...",
+        "name": "Finding a Dataset",
         "type": "text",
-        "description": "Retrieving..."
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Splitting the Dataset",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Exploratory Data Analysis",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Data Cleaning",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Pre-processing",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Results",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Hyperparameter Tuning",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
+      },
+      {
+        "name": "Coursework",
+        "type": "text",
+        "description": "Retrieving Feb '26..."
       }
     ],
     "skills": [
-      "Retrieving..."
+      "Retrieving Feb '26..."
     ],
     "details": [
       {
         "title": "Project 17",
         "subtitle": "Predictive Modelling of a Song's Popularity",
         "author": "Imogen Dicen",
-        "backgroundImage": "",
+        "backgroundImage": "./images/p17-1.png",
         "nonProjectLinks": [
-          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep 2025 - Now"},
+          {"name": "Duration", "icon": "fa fa-timeline", "text": "Sep - Dec 2025"},
           {"name": "Built For", "icon": "fa fa-user", "text": "Artificial Intelligence and Machine Learning"},
           {"name": "Collaboration", "icon": "fa fa-user-group", "text": "Individual"},
-          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Ongoing"}
+          {"name": "Level of Completion", "icon": "fa fa-list", "text": "Complete"}
         ],
         "projectLinks": [
-
+          { 
+            "platform": "GitHub", 
+            "text": "Link to Python Notebook", 
+            "url": "https://github.com/mars-rei/predictiveModellingSpotifySongPopularity",
+            "icon": "fa-brands fa-github"
+          }
         ],
         "technologiesUsed": [
-          { "tech": "Retrieving...", "icon": "fa fa-question" }
-        ],
-        "technologiesLearnt": [
-          { "tech": "Retrieving...", "icon": "fa fa-question" }
+          { "tech": "Python", "icon": "fa-brands fa-python" },
+          { "tech": "Pandas", "icon": "fa fa-magnifying-glass-chart" },
+          { "tech": "NumPy", "icon": "fa fa-magnifying-glass-chart" },
+          { "tech": "Matplotlib", "icon": "fa fa-magnifying-glass-chart" },
+          { "tech": "Seaborn", "icon": "fa fa-magnifying-glass-chart" }
         ]
       }
     ]

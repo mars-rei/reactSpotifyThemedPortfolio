@@ -68,7 +68,7 @@ const educations = {
             {
               "title": "1st Semester",
               "items": [
-                { "num": 1, "name": "Artificial Intelligence and Machine Learning", "icon": "fa fa-brain"/*, "grade": "?"*/ },
+                { "num": 1, "name": "Artificial Intelligence and Machine Learning", "icon": "fa fa-brain", "grade": "74%" },
                 { "num": 2, "name": "User Experience Design", "icon": "fa fa-users-gear"/*, "grade": "?" */}
               ]
             }//,

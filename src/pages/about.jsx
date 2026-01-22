@@ -45,7 +45,7 @@ const IntroductionOverlay = () => {
 
         <div className="flex w-full p-4 absolute bottom-0 left-0">
           <div className="flex-1 mb-8 ml-8 lg:mr-60 md:mr-40">
-            <p className="text-md font-semibold pb-2">399 connections</p>
+            <p className="text-md font-semibold pb-2">417 connections</p>
             <p className="text-md font-normal flex-1">
               I'm Imogen, but you can call me Mars! A final year Computer Science student 
               interested in UX/UI design, front-end development, and data engineering.
@@ -94,13 +94,6 @@ const IntroductionOverlay = () => {
                     <p class="font-semibold">DataCamp</p>
                   </div>
                 </a>
-
-                <a href="https://reminiscent-flannel-fe7.notion.site/my-projects-0cd061a938b0467d98cb56019a970f6d?source=copy_link">
-                  <div class="flex items-center space-x-3 mt-3">
-                    <span class="fa fa-briefcase fa-lg w-6 pr-2"></span>
-                    <p class="font-semibold">Backup Project Portfolio</p>
-                  </div>
-                </a>
               </div>
 
               <div class="mx-4 mt-3 space-y-3 text-faded text-md">
@@ -121,21 +114,13 @@ const IntroductionOverlay = () => {
 
                 <p>
                   Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on 
-                  these three uni projects (see the Projects section of my profile for more information):
+                  my final year project (see the Projects section of my profile for more information):
                 </p>
 
                 <ul className="list-disc ml-6 mr-2">
                   <li>
-                    My final year project ~ Portfoliohub: A portfolio website builder web application for 
+                    Portfoliohub: A portfolio website builder web application for 
                     creatives (excluding generative AI components)
-                  </li>
-                  <li>
-                    The Green Room ~ user experience design for a mobile application to link musicians 
-                    and local venues in the West Midlands 
-                  </li>
-                  <li>
-                    Developing a predictive model to classify whether a song will be highly or less 
-                    popular based on Spotify data
                   </li>
                 </ul>
 
@@ -157,7 +142,7 @@ const IntroductionOverlay = () => {
 
                 <div className="mt-6 flex flex-row items-center gap-x-2">
                   <img src="./images/headshot.jpeg" className="rounded-full w-6 h-6" />
-                  <p className="text-md text-gray-400">Last updated on 22nd November '25</p>
+                  <p className="text-md text-gray-400">Last updated on 22nd January '26</p>
                 </div>
               </div>
             </div>
@@ -229,7 +214,7 @@ const About = () => {
                     </div>
                     
                     <div class="mt-3 p-4 md:p-0 md:px-5 bg-[#121212]">
-                      <p class="text-xs md:text-sm text-faded md:text-white md:font-normal">399 connections</p>
+                      <p class="text-xs md:text-sm text-faded md:text-white md:font-normal">417 connections</p>
 
                       <div>
                         <div class="mt-4 py-2 text-lg md:text-2xl font-bold">Areas of Interest</div>
@@ -256,7 +241,7 @@ const About = () => {
                           </div>
                           <div>
                             <p class="font-normal text-md">Web development</p>
-                            <p class="text-xs md:text-sm text-faded">Designing and coding full-stack websites.</p>
+                            <p class="text-xs md:text-sm text-faded">Designing and coding the front-end of websites.</p>
                           </div>
                         </div>
 
@@ -301,7 +286,7 @@ const About = () => {
                               <div class="flex-1">
                                 <p class="text-xs">3rd Year Student</p>
                                 <p class="text-lg font-semibold">Imogen Dicen</p>
-                                <p class="text-xs font-normal text-faded">345 connections</p>
+                                <p class="text-xs font-normal text-faded">417 connections</p>
                                 <div class="flex items-center justify-between mt-4">  
                                   <p class="text-xs font-normal text-faded">
                                     I'm Imogen, but you can call me Mars! A final year Computer Science student 

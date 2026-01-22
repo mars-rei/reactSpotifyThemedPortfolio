@@ -12,8 +12,8 @@ const Profile = () => {
           <p class="text-sm">
             <span class="font-semibold">3rd Year</span>
             <span class="text-faded"> Computer Science Student • </span>
-            <span class="font-semibold">3</span>
-            <span class="text-faded"> Ongoing Projects</span>
+            <span class="font-semibold">1</span>
+            <span class="text-faded"> Ongoing Project</span>
           </p>
         </div>
       </div>

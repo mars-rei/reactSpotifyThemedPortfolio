@@ -4,17 +4,17 @@ const skills = {
     {
       "id": 1,
       "name": "Python",
-      "icon": "fa fa-code"    
+      "icon": "fa-brands fa-python"    
     },
     {
       "id": 2,
       "name": "CSS",
-      "icon": "fa fa-code"    
+      "icon": "fa-brands fa-css3-alt"    
     },
     {
       "id": 3,
       "name": "PHP",
-      "icon": "fa fa-code"    
+      "icon": "fa-brands fa-php"    
     },
     {
       "id": 4,
@@ -44,7 +44,7 @@ const skills = {
     {
       "id": 9,
       "name": "HTML",
-      "icon": "fa fa-code"    
+      "icon": "fa-brands fa-html5"    
     },
     {
       "id": 10,
@@ -53,24 +53,24 @@ const skills = {
     },
     {
       "id": 11,
-      "name": "JavaScript",
-      "icon": "fa fa-code"    
-    },
-    {
-      "id": 12,
-      "name": "Full-Stack Development",
-      "icon": "fa fa-folder"    
-    },
-    {
-      "id": 13,
       "name": "Problem Solving",
       "icon": "fa fa-puzzle-piece"    
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "Team Collaboration",
       "icon": "fa fa-user-plus"    
-    }  
+    },
+    {
+      "id": 13,
+      "name": "tailwindCSS",
+      "icon": "fa fa-code"    
+    },
+    {
+      "id": 14,
+      "name": "React",
+      "icon": "fa-brands fa-react"    
+    }   
   ]
 };
 

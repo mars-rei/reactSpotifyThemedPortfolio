@@ -127,7 +127,7 @@ const Contact = () => {
                       <i class="fa fa-briefcase text-2xl"></i>
                       <p class="font-bold text-md">Portfolio</p>
                     </div>
-                    <p class="text-3xl font-bold text-purple-200">Github</p>
+                    <p class="text-3xl font-bold text-orange-300">Github</p>
                     <hr class="border-[#535353]" />
                     <ul class="text-md font-normal list-disc ml-6">
                       <li>
@@ -139,7 +139,7 @@ const Contact = () => {
                     </ul>
                     <a 
                       href="https://github.com/mars-rei" 
-                      class="py-2 rounded-full bg-purple-200 flex items-center justify-center mt-16 text-[#181818] font-bold"
+                      class="py-2 rounded-full bg-orange-300 flex items-center justify-center mt-16 text-[#181818] font-bold"
                     >
                       View My Code
                     </a>
@@ -152,7 +152,7 @@ const Contact = () => {
                         <i class="fa fa-briefcase text-xl"></i>
                         <p class="font-bold text-xs">Portfolio</p>
                       </div>
-                      <p class="text-lg font-bold text-purple-200">Github</p>
+                      <p class="text-lg font-bold text-orange-300">Github</p>
                       <ul class="list-disc ml-6">
                         <li>
                           <p class="text-sm">Personal and academic work</p>
@@ -164,51 +164,6 @@ const Contact = () => {
                       <p class="text-xs text-faded flex justify-center">GitHub green {`>`} Anilist green. (This is a lie.)</p> 
                     </div>
                   </a>
-
-                  
-                  <div class="hidden md:inline-block rounded-lg bg-[#282828] w-80 h-90 px-5 py-4 mt-5 pt-14 space-y-3">
-                    <div class="flex space-x-2 items-center">
-                      <i class="fa fa-briefcase text-2xl"></i>
-                      <p class="font-bold text-md">Portfolio</p>
-                    </div>
-                    <p class="text-3xl font-bold text-orange-300">Notion Portfolio</p>
-                    <hr class="border-[#535353]" />
-                    <ul class="text-md font-normal list-disc ml-6">
-                      <li>
-                          <p>All projects, notes, and media</p>
-                      </li>
-                      <li>
-                          <p>Updated regularly</p>
-                      </li>
-                    </ul>
-                    <a 
-                      href="https://reminiscent-flannel-fe7.notion.site/my-projects-0cd061a938b0467d98cb56019a970f6d?source=copy_link" 
-                      class="py-2 rounded-full bg-orange-300 flex items-center justify-center mt-16 text-[#181818] font-bold"
-                    >
-                      View My Projects
-                    </a>
-                    <p class="text-xs text-faded flex justify-center">A backup portfolio storing only project details.</p> 
-                  </div>
-
-                  <a href="https://reminiscent-flannel-fe7.notion.site/my-projects-0cd061a938b0467d98cb56019a970f6d?source=copy_link" class="md:hidden">
-                    <div class="rounded-lg bg-[#282828] w-full px-3 py-4 mt-5 space-y-3">
-                      <div class="flex space-x-2 items-center">
-                        <i class="fa fa-briefcase text-xl"></i>
-                        <p class="font-bold text-xs">Portfolio</p>
-                      </div>
-                      <p class="text-lg font-bold text-orange-300">Notion Portfolio</p>
-                      <ul class="list-disc ml-6">
-                        <li>
-                          <p class="text-sm">All projects, notes, and media</p>
-                        </li>
-                        <li>
-                          <p class="text-sm">Updated regularly</p>
-                        </li>
-                      </ul>
-                      <p class="text-xs text-faded flex justify-center">A backup portfolio storing only project details.</p> 
-                    </div>
-                  </a>
-
 
                   <div class="hidden md:inline-block rounded-lg bg-[#282828] w-80 h-90 px-5 py-4 mt-5 pt-14 space-y-3">
                     <div class="flex space-x-2 items-center">
