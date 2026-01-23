@@ -23,54 +23,64 @@ const skills = {
     },
     {
       "id": 5,
-      "name": "Frontend Development",
-      "icon": "fa fa-folder"    
-    },
-    {
-      "id": 6,
-      "name": "Project Management",
-      "icon": "fa fa-list"    
-    },
-    {
-      "id": 7,
       "name": "Team Leadership",
       "icon": "fa fa-user-plus"    
     },
     {
-      "id": 8,
+      "id": 6,
       "name": "Figma",
       "icon": "fa-brands fa-figma"    
     },
     {
-      "id": 9,
+      "id": 7,
       "name": "HTML",
       "icon": "fa-brands fa-html5"    
     },
     {
-      "id": 10,
+      "id": 8,
       "name": "SQL",
       "icon": "fa fa-database"    
     },
     {
-      "id": 11,
-      "name": "Problem Solving",
-      "icon": "fa fa-puzzle-piece"    
-    },
-    {
-      "id": 12,
-      "name": "Team Collaboration",
-      "icon": "fa fa-user-plus"    
-    },
-    {
-      "id": 13,
+      "id": 9,
       "name": "tailwindCSS",
       "icon": "fa fa-code"    
     },
     {
-      "id": 14,
+      "id": 10,
       "name": "React",
       "icon": "fa-brands fa-react"    
-    }   
+    },
+    {
+      "id": 11,
+      "name": "Frontend Development",
+      "icon": "fa fa-folder"    
+    },
+    {
+      "id": 12,
+      "name": "Project Management",
+      "icon": "fa fa-list"    
+    },
+    {
+      "id": 13,
+      "name": "Problem Solving",
+      "icon": "fa fa-puzzle-piece"    
+    },
+    {
+      "id": 14,
+      "name": "Team Collaboration",
+      "icon": "fa fa-user-plus"    
+    },
+    {
+      "id": 15,
+      "name": "Usability Testing",
+      "icon": "fa fa-clipboard"    
+    },
+    {
+      "id": 16,
+      "name": "User Experience Design",
+      "icon": "fa fa-face-smile"    
+    }
   ]
 };
 

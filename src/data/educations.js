@@ -1,6 +1,6 @@
 const educations = {
   "title": "Education",
-  "date": "November 2025",
+  "date": "January 2026",
   "education": [
     {
       "id": 1,
@@ -69,16 +69,16 @@ const educations = {
               "title": "1st Semester",
               "items": [
                 { "num": 1, "name": "Artificial Intelligence and Machine Learning", "icon": "fa fa-brain", "grade": "74%" },
-                { "num": 2, "name": "User Experience Design", "icon": "fa fa-users-gear"/*, "grade": "?" */}
+                { "num": 2, "name": "User Experience Design", "icon": "fa fa-users-gear", "grade": "80%"}
               ]
-            }//,
-            /*{
+            },
+            {
               "title": "2nd Semester",
               "items": [
-                { "num": 1, "name": "?", "icon": "fa fa-question", "grade": "?" },
-                { "num": 2, "name": "?", "icon": "fa fa-question", "grade": "?" }
+                { "num": 1, "name": "Cloud Computing", "icon": "fa fa-cloud"/*, "grade": "?" }*/},
+                { "num": 2, "name": "Mobile and Wearable Application Development", "icon": "fa fa-mobile-screen-button"/*, "grade": "?" }*/}
               ]
-            }*/
+            }
           ]
         }
       ]
