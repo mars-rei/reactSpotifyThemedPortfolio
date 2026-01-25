@@ -1107,9 +1107,15 @@ const projects = [
         "projectLinks": [
           { 
             "platform": "GitHub", 
-            "text": "Link to PortfolioHub", 
+            "text": "Link to code", 
             "url": "https://github.com/mars-rei/portfoliohub",
             "icon": "fa-brands fa-github"
+          },
+          { 
+            "platform": "Figma", 
+            "text": "Link to mockups", 
+            "url": "https://www.figma.com/design/dKRYULSLCqO5KEWJoMvpgv/portfolioHub?node-id=0-1&t=ClVHkokUZUrJhqro-1",
+            "icon": "fa-brands fa-figma"
           }
         ],
         "technologiesUsed": [

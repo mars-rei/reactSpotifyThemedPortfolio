@@ -142,7 +142,7 @@ const IntroductionOverlay = () => {
 
                 <div className="mt-6 flex flex-row items-center gap-x-2">
                   <img src="./images/headshot.jpeg" className="rounded-full w-6 h-6" />
-                  <p className="text-md text-gray-400">Last updated on 23rd January '26</p>
+                  <p className="text-md text-gray-400">Last updated on 25th January '26</p>
                 </div>
               </div>
             </div>
