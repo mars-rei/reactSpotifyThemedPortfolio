@@ -10,10 +10,9 @@ const Profile = () => {
         </div>
         <div class="mt-4 flex flex-row items-center space-x-2">
           <p class="text-sm">
-            <span class="font-semibold">3rd Year</span>
-            <span class="text-faded"> Computer Science Student • </span>
-            <span class="font-semibold">1</span>
-            <span class="text-faded"> Ongoing Project</span>
+            <span class="font-semibold">User Experience Design</span>
+            <span class="text-faded"> Master's Student • </span>
+            <span class="font-semibold">This portfolio is now discontinued.</span>
           </p>
         </div>
       </div>

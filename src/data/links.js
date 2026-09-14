@@ -18,12 +18,6 @@ const links = {
       "name": "GitHub",
       "link": "https://github.com/mars-rei",
       "icon": "fa-brands fa-github"       
-    },
-    {
-      "id": 4,
-      "name": "DataCamp",
-      "link": "https://www.datacamp.com/portfolio/marsrei",
-      "icon": "fa fa-magnifying-glass-chart"      
     }
   ]
 };

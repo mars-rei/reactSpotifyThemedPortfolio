@@ -1,14 +1,51 @@
 const educations = {
   "title": "Education",
-  "date": "January 2026",
+  "date": "September 2026",
   "education": [
     {
       "id": 1,
       "title": "Birmingham City University",
+      "link": "/e6-bcu",
+      "image": "",
+      "description": "MSc User Experience Design.",
+      "duration": "From 2026 - 2027",
+      "details": [
+        {
+          "title": "Master's Degree",
+          "items": [
+            {
+              "title": "1st Semester",
+              "items": [
+                { "num": 1, "name": "Human-Centred Design", "icon": "fa fa-users"/*, "grade": "83%"*/ },
+                { "num": 2, "name": "UX Development", "icon": "fa fa-code"/*, "grade": "83%"*/ },
+                { "num": 3, "name": "Visual Interface Design", "icon": "fa fa-window-restore"/*, "grade": "74%"*/ } 
+              ]
+            } /*,
+            {
+              "title": "2nd Semester",
+              "items": [
+                { "num": 1, "name": "Accessibility and Assistive Technology", "icon": "fa fa-code", "grade": "89%" },
+                { "num": 2, "name": "Research Methods and Evaluation", "icon": "fa fa-network-wired", "grade": "85%" },
+                { "num": 3, "name": "Advanced and Immersive Technologies", "icon": "fa fa-robot", "grade": "76%" } 
+              ]
+            },
+            {
+              "title": "3rd Semester",
+              "items": [
+                { "num": 1, "name": "Individual Master’s Project", "icon": "fa fa-diagram-project", "grade": "87%" }
+              ]
+            }*/
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Birmingham City University",
       "link": "/e2-bcu",
       "image": "./images/e2-1.jpg",
       "description": "BSc Computer Science (with Honours).",
-      "duration": "From 2023 - Now",
+      "duration": "From 2023 - 2026",
       "details": [
         {
           "title": "1st Year",
@@ -61,8 +98,8 @@ const educations = {
                 { 
                   "num": 1, 
                   "name": "PortfolioHub: The design and implementation of a portfolio website builder web application for creatives", 
-                  "icon": "fa fa-graduation-cap"/*, 
-                  "grade": "?" */}
+                  "icon": "fa fa-graduation-cap", 
+                  "grade": "71%"}
               ]
             },
             {
@@ -75,8 +112,8 @@ const educations = {
             {
               "title": "2nd Semester",
               "items": [
-                { "num": 1, "name": "Cloud Computing", "icon": "fa fa-cloud"/*, "grade": "?" }*/},
-                { "num": 2, "name": "Mobile and Wearable Application Development", "icon": "fa fa-mobile-screen-button"/*, "grade": "?" }*/}
+                { "num": 1, "name": "Cloud Computing", "icon": "fa fa-cloud", "grade": "82%" },
+                { "num": 2, "name": "Mobile and Wearable Application Development", "icon": "fa fa-mobile-screen-button", "grade": "79%" }
               ]
             }
           ]
@@ -84,11 +121,11 @@ const educations = {
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "DataCamp",
       "link": "/e4-datacamp",
       "description": "Personal development.",
-      "duration": "From Jun 2024 - Now",
+      "duration": "From Jun 2024 - Sep 2026",
       "details": [
         {
           "title": "Completed Tracks",
@@ -98,7 +135,9 @@ const educations = {
             { "num": 3, "name": "Associate Data Engineer in SQL", "icon": "fa fa-database", "grade": "30 Hours | 9 Courses" },
             { "num": 4, "name": "SQL Fundamentals", "icon": "fa fa-database", "grade": "26 Hours | 7 Courses" },
             { "num": 5, "name": "Python Data Fundamentals", "icon": "fa fa-code", "grade": "28 Hours | 7 Courses" },
-            { "num": 6, "name": "Associate Data Scientist in Python", "icon": "fa fa-chart-line", "grade": "90 Hours | 23 Courses" }
+            { "num": 6, "name": "Associate Data Scientist in Python", "icon": "fa fa-chart-line", "grade": "90 Hours | 23 Courses" },
+            { "num": 7, "name": "Java Fundamentals", "icon": "fa-brands fa-java", "grade": "20 Hours | 5 Courses" },
+            { "num": 8, "name": "Data Engineer in Java", "icon": "fa-brands fa-java", "grade": "27 Hours | 9 Courses" }
           ]
         },
         {
@@ -151,17 +190,26 @@ const educations = {
             { "num": 45, "name": "Machine Learning with Tree-Based Models in Python", "icon": "fa fa-chart-line", "grade": "5 Hours" },
             { "num": 46, "name": "Understanding ChatGPT", "icon": "fa fa-message", "grade": "1 Hour" },
             { "num": 47, "name": "Introduction to Microsoft Copilot", "icon": "fa fa-message", "grade": "1 Hour" },
-            { "num": 48, "name": "Understanding Prompt Engineering", "icon": "fa fa-message", "grade": "1 Hour" }
+            { "num": 48, "name": "Understanding Prompt Engineering", "icon": "fa fa-message", "grade": "1 Hour" },
+            { "num": 49, "name": "Introduction to Java", "icon": "fa-brands fa-java", "grade": "4 Hours" },
+            { "num": 50, "name": "Intermediate Java", "icon": "fa-brands fa-java", "grade": "4 Hours" },
+            { "num": 51, "name": "Introduction to Object-Oriented Programming in Java", "icon": "fa-brands fa-java", "grade": "4 Hours" },
+            { "num": 52, "name": "Data Types and Exceptions in Java", "icon": "fa-brands fa-java", "grade": "4 Hours" },
+            { "num": 53, "name": "Input/Output and Streams in Java", "icon": "fa-brands fa-java", "grade": "4 Hours" },
+            { "num": 54, "name": "Importing Data in Java", "icon": "fa-brands fa-java", "grade": "3 Hours" },
+            { "num": 55, "name": "Querying a PostgreSQL Database in Java", "icon": "fa-brands fa-java", "grade": "3 Hours" },
+            { "num": 56, "name": "Cleaning Data in Java", "icon": "fa-brands fa-java", "grade": "4 Hours" },
+            { "num": 57, "name": "Optimizing Code in Java", "icon": "fa-brands fa-java", "grade": "3 Hours" }
           ]
         }
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "freeCodeCamp",
       "link": "/e5-freecodecamp",
       "description": "Personal development.",
-      "duration": "From Aug 2024 - Now",
+      "duration": "From Aug 2024 - Sep 2025",
       "details": [
         {
           "title": "Ongoing Tracks",
@@ -174,7 +222,7 @@ const educations = {
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Cisco Networking Academy",
       "link": "/e3-cisco",
       "description": "For university & personal development.",
@@ -198,7 +246,7 @@ const educations = {
       "visibleMd": false
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "King Edward VI Handsworth",
       "link": "/e1-kevihs",
       "image": "./images/e1-1.jpg",

@@ -21,7 +21,7 @@ const Introduction = () => {
 
             <div class="ml-4 mt-3">
             <p class="text-3xl font-bold">Imogen Dicen</p>
-            <p class="text-xs">Final Year Computer Science Student</p>
+            <p class="text-xs">Master's User Experience Design Student</p>
             </div>
 
             <div class="mx-4 mt-3 space-y-3 text-faded text-sm">
@@ -30,48 +30,52 @@ const Introduction = () => {
             </p>
 
             <p>
-                I'm Imogen, but you can call me Mars! I'm a third year Computer Science student with 
-                current interests in UX/UI design, front-end development and data engineering.
+                I'm Imogen, but you can call me Mars! I'm a Computer Science graduate and a MSc UX Design student with interests in UX/UI design and engineering. 
             </p>
 
             <p>
-                Originally, I chose my major out of a love for coding and a desire to study the many 
-                topics this field has to offer, but of course, my creativity has gravitated me towards 
-                branches of computer science that mix technical skill with creative thinking.
+                Originally, I chose my major out of love for coding. Over time, my creativity has gravitated me towards branches of computer science that mix technical skill with creative thinking.
             </p>
 
             <p>
-                Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on 
-                my final year project (see the Projects section of my profile for more information):
+                I'm currently focusing on the following projects (see the Projects section of my profile for more information):
             </p>
 
             <ul class="list-disc ml-6 mr-2">
                 <li>
-                    Portfoliohub: A portfolio website builder web application for 
-                    creatives (excluding generative AI components)
+                    Game-themed portfolio: building a portfolio inspired by Nintendo's Tomodachi Life, following up on my last summer’s Spotify-themed portfolio
+                </li>
+                <li>
+                    Crumbs Bakes website: collaborating in an agile team to design and build a website including an order management dashboard for a local small business
+                </li>
+                <li>
+                    Main portfolio: transforming both my Spotify and Tomodachi Life themed portfolios into a lightweight full-stack website featuring dynamic theme-toggling and an easy-to-use CMS
+                </li>
+                <li>
+                    Portfoliohub enhancement: upgrading my BSc final project - a portfolio website builder for creatives (excluding generative AI components)
                 </li>
             </ul>
 
             <p>
-                Throughout my time at university, I have discovered myself to be a reliable team 
-                leader, leading my group mates to success. Highlights include:
+                Academic highlights include:
             </p>
 
             <ul class="list-disc ml-6 mr-2">
                 <li>
-                    Winning 3rd place in the Innovative category at BCU's Innovation Festival 
-                    2024 with BookBot and TakeFive
+                    Being a top-performing student in my university’s UX module, achieving a final grade of 80%
                 </li>
                 <li>
-                    Scoring the highest mark in our section on our presentation for our software 
-                    design proposal and research
+                    Scoring the highest mark in our section on our presentation for our software design proposal and research
+                </li>
+                <li>
+                    Winning 3rd place in the Innovative category at BCU's Innovation Festival 2024 with BookBot and TakeFive
                 </li>
             </ul>
             </div>
 
             <div class="ml-4 mt-6 flex flex-row items-center gap-x-2">
             <img src="./images/headshot.jpeg" class="rounded-full w-6 h-6" />
-            <p class="text-sm text-faded">Last updated on 25th January '26</p>
+            <p class="text-sm text-faded">Last updated on 14th September '26</p>
             </div>
 
             <div class="ml-4 mt-4 text-sm">
@@ -93,13 +97,6 @@ const Introduction = () => {
                 <div class="flex items-center space-x-3 mt-3">
                 <span class="fa-brands fa-github fa-lg w-6"></span>
                 <p class="font-bold">Github</p>
-                </div>
-            </a>
-
-            <a href="https://www.datacamp.com/portfolio/marsrei">
-                <div class="flex items-center space-x-3 mt-3">
-                <span class="fa fa-magnifying-glass-chart fa-lg w-6"></span>
-                <p class="font-bold">DataCamp</p>
                 </div>
             </a>
             </div>

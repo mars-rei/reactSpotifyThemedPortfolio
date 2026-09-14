@@ -15,6 +15,19 @@ const Certifications = () => {
   }, []);
 
   const certifications = [
+    {icon: 'fa fa-language', name: 'Hiragana A1 Self-Study Course', from: 'The Japan Foundation', type: 'acknowledgement'},
+    {icon: 'fa fa-language', name: 'Japanese in Anime & Manga A1 (Greetings) Self-Study Course', from: 'The Japan Foundation', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Data Engineer in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Optimizing Code in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Cleaning Data in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Querying a PostgreSQL Database in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Importing Data in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Java Fundamentals', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Input/Output and Streams in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Data Types and Exceptions in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Introduction to Object-Oriented Programming in Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Intermediate Java', from: 'DataCamp', type: 'acknowledgement'},
+    {icon: 'fa-brands fa-java', name: 'Introduction to Java', from: 'DataCamp', type: 'acknowledgement'},
     {icon: 'fa fa-brain', name: 'Understanding Prompt Engineering', from: 'DataCamp', type: 'acknowledgement'},
     {icon: 'fa fa-brain', name: 'Introduction to Microsoft Copilot', from: 'DataCamp', type: 'acknowledgement'},
     {icon: 'fa fa-brain', name: 'Understanding ChatGPT', from: 'DataCamp', type: 'acknowledgement'},
@@ -112,11 +125,11 @@ const Certifications = () => {
                       <p class="text-5xl lg:text-6xl font-bold">My Certifications</p>
                     </div>
                     <div class="flex mt-4">
-                      <p class="text-sm text-faded">All formal certifications and badges and certificates of acknowledgement as of November 2025.</p>
+                      <p class="text-sm text-faded">All formal certifications and badges and certificates of acknowledgement as of September 2026.</p>
                     </div>
                     <div class="mt-2 flex flex-row items-center space-x-2">
                       <img src="./images/headshot.jpeg" class="w-6 rounded-full" />
-                      <p class="text-sm text-white">Imogen Dicen • <span class="text-sm text-faded">5 formal, 56 acknowledged.</span></p>
+                      <p class="text-sm text-white">Imogen Dicen • <span class="text-sm text-faded">5 formal, 69 acknowledged.</span></p>
                     </div>
                   </div>
                 </div>

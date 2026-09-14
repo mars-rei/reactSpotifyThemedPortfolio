@@ -45,10 +45,9 @@ const IntroductionOverlay = () => {
 
         <div className="flex w-full p-4 absolute bottom-0 left-0">
           <div className="flex-1 mb-8 ml-8 lg:mr-60 md:mr-40">
-            <p className="text-md font-semibold pb-2">418 connections</p>
+            <p className="text-md font-semibold pb-2">646 connections</p>
             <p className="text-md font-normal flex-1">
-              I'm Imogen, but you can call me Mars! A final year Computer Science student 
-              interested in UX/UI design, front-end development, and data engineering.
+              I'm Imogen, but you can call me Mars! I'm a Computer Science graduate and a MSc UX Design student with interests in UX/UI design and engineering. 
             </p>
           </div>
         </div>
@@ -87,13 +86,6 @@ const IntroductionOverlay = () => {
                     <p class="font-semibold">Github</p>
                   </div>
                 </a>
-
-                <a href="https://www.datacamp.com/portfolio/marsrei">
-                  <div class="flex items-center space-x-3 mt-3">
-                    <span class="fa fa-magnifying-glass-chart fa-lg w-6"></span>
-                    <p class="font-semibold">DataCamp</p>
-                  </div>
-                </a>
               </div>
 
               <div class="mx-4 mt-3 space-y-3 text-faded text-md">
@@ -102,25 +94,29 @@ const IntroductionOverlay = () => {
                 </p>
 
                 <p>
-                  I'm Imogen, but you can call me Mars! I'm a third year Computer Science student with 
-                  current interests in UX/UI design, front-end development and data engineering. 
+                  I'm Imogen, but you can call me Mars! I'm a Computer Science graduate and a MSc UX Design student with interests in UX/UI design and engineering. 
                 </p>
 
                 <p>
-                  Originally, I chose my major out of a love for coding and a desire to study the many 
-                  topics this field has to offer, but of course, my creativity has gravitated me towards 
-                  branches of computer science that mix technical skill with creative thinking.
+                  Originally, I chose my major out of love for coding. Over time, my creativity has gravitated me towards branches of computer science that mix technical skill with creative thinking.
                 </p>
 
                 <p>
-                  Right now, I have many ideas I'm excited to pursue, but I'm currently focusing on 
-                  my final year project (see the Projects section of my profile for more information):
+                  I'm currently focusing on the following projects (see the Projects section of my profile for more information):
                 </p>
 
                 <ul className="list-disc ml-6 mr-2">
                   <li>
-                    Portfoliohub: A portfolio website builder web application for 
-                    creatives (excluding generative AI components)
+                    Game-themed portfolio: building a portfolio inspired by Nintendo's Tomodachi Life, following up on my last summer’s Spotify-themed portfolio
+                  </li>
+                  <li>
+                    Crumbs Bakes website: collaborating in an agile team to design and build a website including an order management dashboard for a local small business
+                  </li>
+                  <li>
+                    Main portfolio: transforming both my Spotify and Tomodachi Life themed portfolios into a lightweight full-stack website featuring dynamic theme-toggling and an easy-to-use CMS
+                  </li>
+                  <li>
+                    Portfoliohub enhancement: upgrading my BSc final project - a portfolio website builder for creatives (excluding generative AI components)
                   </li>
                 </ul>
 
@@ -131,18 +127,19 @@ const IntroductionOverlay = () => {
 
                 <ul className="list-disc ml-6 mr-2">
                   <li>
-                    Winning 3rd place in the Innovative category at BCU's Innovation Festival 
-                    2024 with BookBot and TakeFive
+                    Being a top-performing student in my university’s UX module, achieving a final grade of 80%
                   </li>
                   <li>
-                    Scoring the highest mark in our section on our presentation for our software 
-                    design proposal and research
+                    Scoring the highest mark in our section on our presentation for our software design proposal and research
+                  </li>
+                  <li>
+                    Winning 3rd place in the Innovative category at BCU's Innovation Festival 2024 with BookBot and TakeFive
                   </li>
                 </ul>
 
                 <div className="mt-6 flex flex-row items-center gap-x-2">
                   <img src="./images/headshot.jpeg" className="rounded-full w-6 h-6" />
-                  <p className="text-md text-gray-400">Last updated on 25th January '26</p>
+                  <p className="text-md text-gray-400">Last updated on 14th September '26</p>
                 </div>
               </div>
             </div>
@@ -214,7 +211,7 @@ const About = () => {
                     </div>
                     
                     <div class="mt-3 p-4 md:p-0 md:px-5 bg-[#121212]">
-                      <p class="text-xs md:text-sm text-faded md:text-white md:font-normal">418 connections</p>
+                      <p class="text-xs md:text-sm text-faded md:text-white md:font-normal">646 connections</p>
 
                       <div>
                         <div class="mt-4 py-2 text-lg md:text-2xl font-bold">Areas of Interest</div>
@@ -227,7 +224,7 @@ const About = () => {
                             <span class="fa fa-users-gear fa-2x text-[#121212]"></span>
                           </div>
                           <div>
-                            <p class="font-normal text-md">UX/UI</p>
+                            <p class="font-normal text-md">UX/UI Engineering</p>
                             <p class="text-xs md:text-sm text-faded">User research and prototyping.</p>
                           </div>
                         </div>
@@ -242,19 +239,6 @@ const About = () => {
                           <div>
                             <p class="font-normal text-md">Web development</p>
                             <p class="text-xs md:text-sm text-faded">Designing and coding the front-end of websites.</p>
-                          </div>
-                        </div>
-
-                        <div class="flex flex-row items-center gap-3 mt-3 md:mt-5 md:ml-5">
-                          <div class="font-normal text-xs md:text-sm md:text-faded">
-                            3
-                          </div>
-                          <div class="bg-[#535353] aspect-square rounded-md w-12 flex justify-center items-center">
-                            <span class="fa fa-database fa-2x text-[#121212]"></span>
-                          </div>
-                          <div>
-                            <p class="font-normal text-md">Data Engineering</p>
-                            <p class="text-xs md:text-sm text-faded">SQL database design & data pipelines.</p>
                           </div>
                         </div>
                       </div>
@@ -284,13 +268,12 @@ const About = () => {
 
                             <div class="flex w-full p-4 absolute bottom-0 left-0">
                               <div class="flex-1">
-                                <p class="text-xs">3rd Year Student</p>
+                                <p class="text-xs">Master's Student</p>
                                 <p class="text-lg font-semibold">Imogen Dicen</p>
-                                <p class="text-xs font-normal text-faded">418 connections</p>
+                                <p class="text-xs font-normal text-faded">464 connections</p>
                                 <div class="flex items-center justify-between mt-4">  
                                   <p class="text-xs font-normal text-faded">
-                                    I'm Imogen, but you can call me Mars! A final year Computer Science student 
-                                    interested in UX/UI design, front-end development, and data ...
+                                    I'm Imogen, but you can call me Mars! I'm a Computer Science graduate and a MSc UX Design student with interests in...
                                     <span className='font-semibold text-white'> see more</span>
                                   </p>
                                 </div>

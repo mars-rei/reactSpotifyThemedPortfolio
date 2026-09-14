@@ -1,6 +1,84 @@
 const certifications = [
     {
-        icon: 'fa fa-brain', 
+        icon: 'fa fa-language', 
+        title: 'Hiragana A1 Self-Study Course', 
+        from: 'The Japan Foundation', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa fa-language', 
+        title: 'Japanese in Anime & Manga A1 (Greetings) Self-Study Course', 
+        from: 'The Japan Foundation', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Data Engineer in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Optimizing Code in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Cleaning Data in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Querying a PostgreSQL Database in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Importing Data in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Java Fundamentals', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Input/Output and Streams in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Data Types and Exceptions in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Introduction to Object-Oriented Programming in Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Intermediate Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
+        title: 'Introduction to Java', 
+        from: 'DataCamp', 
+        type: 'acknowledgement'
+    },
+    {
+        icon: 'fa-brands fa-java', 
         title: 'Understanding Prompt Engineering', 
         from: 'DataCamp', 
         type: 'acknowledgement'

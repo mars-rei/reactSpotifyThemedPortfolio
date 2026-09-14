@@ -35,6 +35,7 @@ function App() {
         <Route path="/e3-cisco" element={<Education education="/e3-cisco"/>} />
         <Route path="/e4-datacamp" element={<Education education="/e4-datacamp"/>} />
         <Route path="/e5-freecodecamp" element={<Education education="/e5-freecodecamp"/>} />
+        <Route path="/e6-bcu" element={<Education education="/e6-bcu"/>} />
 
         <Route path="/p1-im-swissgambit" element={<Project project="/p1-im-swissgambit"/>} />
         <Route path="/p2-bookbot" element={<Project project="/p2-bookbot"/>} />
