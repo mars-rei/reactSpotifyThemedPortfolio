@@ -164,49 +164,6 @@ const Contact = () => {
                       <p class="text-xs text-faded flex justify-center">GitHub green {`>`} Anilist green. (This is a lie.)</p> 
                     </div>
                   </a>
-
-                  <div class="hidden md:inline-block rounded-lg bg-[#282828] w-80 h-90 px-5 py-4 mt-5 pt-14 space-y-3">
-                    <div class="flex space-x-2 items-center">
-                      <i class="fa fa-briefcase text-2xl"></i>
-                      <p class="font-bold text-md">Portfolio</p>
-                    </div>
-                    <p class="text-3xl font-bold text-green-300">DataCamp</p>
-                    <hr class="border-[#535353]" />
-                    <ul class="text-md font-normal list-disc ml-6">
-                      <li>
-                          <p>Slowly but surely levelling up</p>
-                      </li>
-                      <li>
-                          <p>"I swear I’ll finish this track soon"</p>
-                      </li>
-                    </ul>
-                    <a 
-                      href="https://www.datacamp.com/portfolio/marsrei"
-                      class="py-2 rounded-full bg-green-300 flex items-center justify-center mt-16 text-[#181818] font-bold"
-                    >
-                      Learn With Me
-                    </a>
-                    <p class="text-xs text-faded flex justify-center">Learning at the speed of procrastination.</p> 
-                  </div>
-
-                  <a href="https://www.datacamp.com/portfolio/marsrei" class="md:hidden">
-                    <div class="rounded-lg bg-[#282828] w-full px-3 py-4 mt-5 space-y-3">
-                      <div class="flex space-x-2 items-center">
-                        <i class="fa fa-briefcase text-xl"></i>
-                        <p class="font-bold text-xs">Portfolio</p>
-                      </div>
-                      <p class="text-lg font-bold text-green-300">DataCamp</p>
-                      <ul class="list-disc ml-6">
-                        <li>
-                          <p class="text-sm">Slowly but surely levelling up</p>
-                        </li>
-                        <li>
-                          <p class="text-sm">"I swear I’ll finish this track soon"</p>
-                        </li>
-                      </ul>
-                      <p class="text-xs text-faded flex justify-center">Learning at the speed of procrastination.</p> 
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
